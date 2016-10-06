@@ -88,7 +88,7 @@ Google: Python Cheat Sheet
 
 
 # Hello World!<!-- .element: class="dark shadow higher" -->
-<!-- .slide: data-background-image="imgs/photo-1461770354136-8f58567b617a.jpeg" -->
+<!-- .slide: data-background-image="imgs/02/photo-1461770354136-8f58567b617a.jpeg" -->
 
 
 
@@ -126,7 +126,7 @@ Google: Python Cheat Sheet
 
 
 <!-- slide: data-background-image="imgs/pybv10-pinout.jpg" -->
-![Micropython PyBoard](imgs/pybv10-pinout.jpg)
+![Micropython PyBoard](imgs/02/pybv10-pinout.jpg)
 
 
 
