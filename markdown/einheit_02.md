@@ -131,7 +131,7 @@ Google: Python Cheat Sheet
 
 
 # Demo<!-- .element: class="light shadow" -->
-<!-- .slide: data-background-image="imgs/14116941824817ba1f28e78c8dff1.jpeg" -->
+<!-- .slide: data-background-image="imgs/02/14116941824817ba1f28e78c8dff1.jpeg" -->
 
 
 # Video<!-- .element: class="light" -->
@@ -251,18 +251,6 @@ Zuweisung eines Werts heisst **deklarieren**.
 
 
 
-<!--
-## Benennungsregeln:
-* kurze eindeutige
-* durchgehend **lowercase** (Kleinbuchstaben)
-* keine Leerzeichen oder Sonderzeichen (außer \_)
-* englisch und
-* mit Unterstrich (\_) verbunden
-```python
-# Beispiel
-firstname = "Florian"
-works_at = "IICM"
-``` -->
 
 ## Variablen Namen
 Namen sollen englisch, **kurz** und **eindeutig** sein, keine Leerzeichen und Sonderzeichen (außer '\_') enthalten.
@@ -385,10 +373,10 @@ Operatoren definieren die Interaktion <br/> von Variablen und (deren) Werten
 
 | Operator | Beispiel | Ausgabe |
 |  ----    | -----    |  -----:  |
-| +x,-x | -c | -2  |
-| +,- | a + b | 7  |
-| *,/ | a * b | 12  |
-| %  | b % a  | 1  |
+| +x, -x | -c | -2  |
+| +, - | a + b | 7  |
+| *, / | a * b, b / a | 12, 1.3333333  |
+| //, %  | 13//3, 13 % 3   |  4, 1  |
 | ** | a**c | 9  |
 
 
@@ -421,12 +409,12 @@ a = 9
 b = 3
 c = 10
 
-print(a/b)
-print(c/b)
+print(c//b) # Ganzzahldivision
+print(c/b) # Division (Datentyp wird angepasst: Ergebnis ist Float)
 ```
 ```bash
 3
-3
+3.3333333333333335
 ```
 
 
@@ -436,8 +424,8 @@ a = 9.0
 b = 3.0
 c = 10.0
 
-print(a//b) # Ganzzahldivision
-print(c/b) # Division (Datentyp wird angepasst: Ergebnis ist Float)
+print(a/b)
+print(c/b)
 ```
 ```bash
 3.0
@@ -590,7 +578,7 @@ Cow
 ## for als Zählschleife
 mit Hilfe der Funktion *range()*
 ```python
-for count in range(0,5): # von 0, bis exklusive 5 
+for count in range(0,5): # von 0, bis exklusive 5
   print(count)
 ```
 ```bash
