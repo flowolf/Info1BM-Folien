@@ -436,8 +436,8 @@ a = 9.0
 b = 3.0
 c = 10.0
 
-print(a/b)
-print(c/b)
+print(a//b) # Ganzzahldivision
+print(c/b) # Division (Datentyp wird angepasst: Ergebnis ist Float)
 ```
 ```bash
 3.0
@@ -590,7 +590,7 @@ Cow
 ## for als Zählschleife
 mit Hilfe der Funktion *range()*
 ```python
-for count in range(0,5): # von 0, 5 Elemente
+for count in range(0,5): # von 0, bis exklusive 5 
   print(count)
 ```
 ```bash
@@ -614,88 +614,6 @@ for count in range(0,5,2): # mit Schrittgröße 2
 <!-- .element: class="fragment" data-fragment-index="3" -->
 
 
-# Funktionen
-
-
-## Funktionen
-dienen der Kapselung von Code nach logischen Einheiten
-```python
-pets = ["Hamster", "Cat", "Dog", "Canary"]
-
-def not_a_dog_person(animal):
-  return animal.replace("Dog", "Fish")
-
-for pet in pets:
-  print("Tom: {:10} Tim: {}".format(pet, not_a_dog_person(pet)))
-```
-```bash
-Tom: Hamster    Tim: Hamster
-Tom: Cat        Tim: Cat
-Tom: Dog        Tim: Fish
-Tom: Canary     Tim: Canary
-```
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
-
-## Funktionen
-```python
-def add(x, y):
-    return x + y
-
-def print_result(result):
-    print(result)
-
-def main():
-    a = 10
-    b = 20
-    c = add(a, b)
-    print_result(c)
-
-if __name__ == "__main__":
-    main()
-```
-```bash
-30
-```
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
-
-### Definition eines guten Programms
-* Funktionalität <!-- .element: class="fragment" data-fragment-index="1" -->
-* Lesbarkeit <!-- .element: class="fragment" data-fragment-index="2" -->
-* Wartbarkeit <!-- .element: class="fragment" data-fragment-index="3" -->
-* Robustheit <!-- .element: class="fragment" data-fragment-index="4" -->
-* Korrektheit <!-- .element: class="fragment" data-fragment-index="5" -->
-* Effizienz <!-- .element: class="fragment" data-fragment-index="6" -->
-* Portierbarkeit <!-- .element: class="fragment" data-fragment-index="7" -->
-
-
-
-## Eingabe-/Ausgabe Parameter
-```python
-import sys
-
-print(sys.argv)
-```
-```bash
-$ python3 sysargv.py test1 123 --flag
-['sysargv.py', 'test1', '123', '--flag']
-```
-<!-- .element: class="fragment" data-fragment-index="1" -->
-```python
-import sys
-sum = 0
-for element in sys.argv[1:]:
-  sum += int(element) # same as: sum = sum + int(element)
-print(sum)
-```
-<!-- .element: class="fragment" data-fragment-index="2" -->
-```bash
-$ python3 sysargv2.py 1 2 3 4 5 6
-21
-```
-<!-- .element: class="fragment" data-fragment-index="3" -->
-
 
 # Fragen? <!-- .element: class="dark shadow" -->
 
@@ -718,7 +636,7 @@ $ python3 sysargv2.py 1 2 3 4 5 6
 
 #### Nächest mal
 
-Geschichte & Teilgebiete
+Funktionen, Geschichte & Teilgebiete
 
 der Informatik
 
