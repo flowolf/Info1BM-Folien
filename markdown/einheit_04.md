@@ -20,7 +20,7 @@
 ## Relais
 * Mechanischer Schalter
   * Probleme:
-    * Umschalten dauert einige Sekuntenbruchteile
+    * Umschalten dauert einige Sekundenbruchteile
     * Benötigt viel Platz
     * Taktfrequenz sehr beschränkt
     * Mechanische Abnutzung
@@ -181,6 +181,7 @@ ein Schlüssel für Ver- und Ent-Schlüsselung
 
 ## Live Coding
 Funktionen um 'Caesar cipher' automatisch zu knacken.
+[Code](bsp/04/brutus.html)
 
 
 ### Asymmetrische Kryptosysteme (1/2)
@@ -399,7 +400,7 @@ von Bildern am Computer.
 Medizinische Problemstellungen mit <br/>Hilfe der
 Informatik zu lösen
 * Entschlüsselung von DNA
-* Früherkennung von Krankenheiten
+* Früherkennung von Krankheiten
 * Ausbreitung von Krankheiten über Epidemie-Modelle
 (Ebola)
 * Vorhersage und Beratung der WHO über Informatiker
@@ -416,139 +417,6 @@ Datum)
 * Kontexte erkennen und zusätzliche Informationen
 bereitstellen
 * Spracherkennung, Sprachsynthese
-
-
-
-# Datenstrukturen
-
-
-## Datenstrukturen
-Dienen dem systematischen Ablegen und Aufrufen von Daten.
-
-* Speicherung
-* Organisation
-* Effizienz
-* regelt Art des Zugriffs
-
-
-## Datenstrukturen
-### Beispiele
-
-* Array
-* assoziatives Array (Dictionary)
-* Warteschlange (FiFo)
-* Stapelspeicher (LiFo)
-* Graphen
-* Bäume (Binärbaum)
-
-
-## Array
-
-```python
-a = [1,"b","III",4,5]
-a[0]
-a[2]
-a[5]
-```
-```bash
-1
-'III'
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
-```
-
-
-## Dictionary
-```python
-d = {"element1": 1, "myelement": "python", "python": 3.5}
-d['element1']
-d['python']
-d['myelement']
-```
-```bash
-1
-3.5
-'python'
-```
-
-
-## Warteschlange (FiFo)
-<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Data_Queue.svg#/media/File:Data_Queue.svg"><img alt="Data Queue.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Data_Queue.svg/1200px-Data_Queue.svg.png"></a><br>By <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg" class="internal" title="Data Queue.svg">This Image</a> was created by <a href="https://en.wikipedia.org/wiki/User:Vegpuff" class="extiw" title="en:User:Vegpuff">User:Vegpuff</a>. - <span class="int-own-work" lang="en">Own work</span>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=7586271">https://commons.wikimedia.org/w/index.php?curid=7586271</a></p>
-
-
-## Warteschlange (FiFo)
-```python
-import queue
-q = queue.Queue()
-q.put(1)
-q.put(2)
-q.put("last")
-
-q.get()
-q.empty()
-q.get()
-q.get()
-q.empty()
-```
-```bash
-1
-False
-2
-'last'
-True
-```
-
-
-## Stapelspeicher (LiFo)
-[![Stack](https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png)](https://commons.wikimedia.org/wiki/File:Lifo_stack.png)<!-- .element: class="stretch" -->
-
-
-## Stapelspeicher (LiFo)
-```python
-import queue
-q = queue.LifoQueue()
-q.put(1)
-q.put(2)
-q.put("last")
-
-q.get()
-q.empty()
-q.get()
-q.get()
-q.empty()
-```
-```bash
-'last'
-False
-2
-1
-True
-```
-
-
-## Graphen
-* bestehen aus **Kanten** und **Knoten**
-* Eigenschaften:
-  * gerichtete Graphen: Kanten haben Richtung
-  * ungerichtete Graphen können in beide Richungen 'begangen' werden.
-  * gewichtet: Kanten haben Gewicht
-  * zyklisch: Weg von Knoten A zurück zu A ohne eine Kante mehrfach zu gehen
-
-
-## Graphenoperationen
-
-* Hinzufügen eines Knotens (mit oder ohne Kanten)
-* Entfernen des Knotens A, entfernt auch alle Kanten zu A
-* Es gibt keine Kanten ohne Knoten an beiden Enden
-
-
-## Bäume
-Sonderform von Graphen
-* Bäume: zusammenhängende, azyklische Graphen
-  * gerichtet
-  * ungerichtet
-  * Binärbaum: maximal 2 Nachkommen pro Knoten
 
 
 
