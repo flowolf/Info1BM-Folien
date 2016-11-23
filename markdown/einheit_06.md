@@ -49,7 +49,7 @@ Fehlerbehandlung, Funktionsweise eines Computers
 
 
 ## Exception Objekt
-Enthält Atribute und Methoden (Funktionen) zur Klassifizierung des Fehlers
+Enthält Attribute und Methoden (Funktionen) zur Klassifizierung des Fehlers
 ```python
 >>> e = Exception("My custom error")
 >>> e.args
@@ -101,6 +101,8 @@ TypeError: exceptions must derive from BaseException
 ## Exception fangen
 ```python
 >>> open("/tmp/non_existing_file",'r')
+```
+```txt
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 FileNotFoundError: [Errno 2] No such file or directory: '/tmp/non_existing_file'
@@ -110,7 +112,9 @@ try:
     open("/tmp/non_existing_file")
 except OSError as e:
     print("Caught:", e)
-
+```
+<!-- .element: class="fragment" data-fragment-index="1" -->
+```txt
 Caught: [Errno 2] No such file or directory: '/tmp/non_existing_file'
 ```
 <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -130,7 +134,7 @@ else:
 ```
 
 
-### except - else
+## except - else
 ```python
 try:
     print("all good")
@@ -145,13 +149,12 @@ else:
 
 print("normal program flow")
 ```
-```python
+```txt
 all good
 Don't know this error!
 Traceback (most recent call last):
   File "<stdin>", line 3, in <module>
 FileNotFoundError: [Errno 2] No such file or directory: '/tmp/non_existing_file'
-normal program flow
 ```
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -171,7 +174,7 @@ else:
 
 print("normal program flow")
 ```
-```python
+```txt
 Undefined vars found
 normal program flow
 ```
@@ -192,7 +195,7 @@ else:
 
 print("normal program flow")
 ```
-```python
+```txt
 all good
 everything is fine
 normal program flow
@@ -212,7 +215,7 @@ except:
 finally:
   print("cleaning up")
 ```
-```python
+```txt
 file does not exist
 cleaning up
 ```
@@ -245,7 +248,7 @@ AssertionError
 
 
 # Aufbau eines Computers
-
+<i class="twa twa-computer twa-5x"></i>
 
 
 ## Aufbau
@@ -286,7 +289,7 @@ Description by <a href="//commons.wikimedia.org/wiki/User:Leipnizkeks" title="Us
 
 
 ## Festplatten
-nichtflüchtiger Speicher, billiger, langsamer.
+ persistierender/nichtflüchtiger Speicher, billiger, langsamer als RAM.
 * Klassische Festplatte:
   * magnetisierbare, rotierende Platten
 <p class=wikipedia style="text-align:center;"><a href="https://commons.wikimedia.org/wiki/File:Seagate_ST33232A_hard_disk_inner_view.jpg#/media/File:Seagate_ST33232A_hard_disk_inner_view.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Seagate_ST33232A_hard_disk_inner_view.jpg/1200px-Seagate_ST33232A_hard_disk_inner_view.jpg" alt="Seagate ST33232A hard disk inner view.jpg"></a><br>Von Eric Gaba, Wikimedia Commons user <a href="//commons.wikimedia.org/wiki/User:Sting" title="User:Sting">Sting</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=11278668">Link</a></p>
@@ -318,7 +321,7 @@ Entwickelt 1944 (Mark I) von IBM und der Harvard-University
 * **Steuerwerk**: ist für das Einlesen der Befehle zuständig
 * **Rechenwerk(e)**: führt entsprechende arithmetische und/oder logische Befehle aus
 * **Daten**: enthält gespeicherte oder zu verarbeitende Daten
-* **Befehle**: enthalten die einzelenen Befehle eines Programms
+* **Befehle**: enthalten die einzelnen Befehle eines Programms
 * **Bussystem** (Pfeile): transportiert Daten zwischen Einheiten
 
 
@@ -335,11 +338,11 @@ Entwickelt 1944 (Mark I) von IBM und der Harvard-University
 * **Ein-/Ausgabe**: kommuniziert mit der Umwelt
 
 
-### Harvard vs. Von Neumann Architektur
+### Von Neumann vs. Harvard Architektur
 
-####Von Neumann Architektur
+Von Neumann Architektur:
 
-* <i class="fa fa-plus" aria-hidden="true" alt="+"></i> Einfacher da Programm und Daten im Speicher liegen, erlaubt einheitliche Routinen des Betriebssystems
+* <i class="fa fa-plus" aria-hidden="true" alt="+" title="+"></i> Einfacher da Programm und Daten im Speicher liegen, erlaubt einheitliche Routinen des Betriebssystems
 * <i class="fa fa-plus" aria-hidden="true" alt="+"></i> Programmcode kann sich selbst modifizieren; leichter zu 'debuggen'
 * <i class="fa fa-minus" aria-hidden="true" alt="-"></i> Selbstmodifikation ist Risiko für Stabilität
 * <i class="fa fa-minus" aria-hidden="true" alt="-"></i> Es gibt keinen Speicherschutz
@@ -348,7 +351,7 @@ Entwickelt 1944 (Mark I) von IBM und der Harvard-University
 
 ### Harvard vs. Von Neumann Architektur
 
-#### Harvard Architektur
+Harvard Architektur:
 
 * <i class="fa fa-plus" aria-hidden="true" alt="+"></i> Schnellerer Zugriff auf Daten und Programme, durch getrenntes Ansteuern
 * <i class="fa fa-plus" aria-hidden="true" alt="+"></i> Speicherschutz einfach umsetzbar
