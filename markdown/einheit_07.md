@@ -9,6 +9,10 @@ Softwareentwicklungsprozesse
 <p class=wikipedia style="text-align:left;width:60%;left:0em;position: relative;"><img src="https://www.pearsonhighered.com/assets/bigcovers/0/1/3/3/0133943038.jpg" alt="book cover"></p>
 
 
+## Motivation
+<a href="https://blog.codinghorror.com/content/images/uploads/2005/03/6a0120a85dcdae970b0128776faf6b970c-pi.png" target="_blank"><p class=wikipedia style="text-align:center;width:100%;center:0em;position: relative;"><img src="https://blog.codinghorror.com/content/images/uploads/2005/03/6a0120a85dcdae970b0128776faf6b970c-pi.png" alt="reality"></p></a>
+
+
 
 # Software-entwicklung
 
@@ -58,7 +62,7 @@ Softwareentwicklungsprozesse
 
 
 ## Prozess (2/2)
-* **(3 Verifikation & Validierung**: 
+* **(3) Verifikation & Validierung**: 
  Die Software wird getestet, ob die den Spezifikationen der Stakeholder (e.g. Kunden) entspricht
 * **(4) Weiterentwicklung**: 
  Anpassung an sich ändernde Kundenwünsche 
@@ -73,7 +77,7 @@ Softwareentwicklungsprozesse
 
 ## Vorgehensmodelle
 * abstrakte Repräsentation vom Softwareentwicklungsprozess
-* für große Projekte Mischformen
+* für große Projekte oft Mischformen
 
 
 ## Vorgehensmodelle
@@ -91,11 +95,29 @@ Softwareentwicklungsprozesse
 
 
 ## Wasserfallmodell
+* Lineares Vorgehensmodell
+* Klar definierte Start- und Endpunkte der Phasen
+* Klar definierte Ergebnisse 
+* Meilensteinsitzungen
+* Lastenheft (Anforderungsspezifikation)
+* Pflichtenheft (Implementierungskonzept, Feature Specification)
+
+
+## Wasserfallmodell
+* Typische Phasen: 
+ * (1) Planung, (Resultat: Lastenheft)  
+ * (2) Systemdesign- und spezifikation (Resultat: Softwarearchitektur)
+ * (3) Implementierung und Modultests (Resultat: Software)
+ * (4) Integrationstest 
+ * (5) Auslieferung und Wartung  
+
+
+## Wasserfallmodell
 * Vorteile: 
  * klar getrennte Phasen
- * definierte Zeitplunkte für Prozessschritte 
+ * definierte Zeitpunkte für Prozessschritte 
 * Nachteile: 
- * frühe Festlegung der gesamten Funktionalität
+ * frühe Festlegung der gesamten Funktionalität notwendig
  * spätere Änderungen kostspielig
 
 
@@ -137,32 +159,92 @@ Softwareentwicklungsprozesse
 
 
 ## Agile Softwareentwicklung
+* Agilität in der Softwareentwicklung 
+ * gesamten Softwareentwicklungsprozess (Extreme Progrogramming) oder Teilbereiche
 * Ziel: Flexibilität 
+
+
+## Agile Manifest (Agile Manifesto)
+<a href="http://agilemanifesto.org/iso/de/manifesto.html">Agile Manifesto DE</a>
+
+
+## Agile Manifest (Agile Manifesto)
+* Individuen und Interaktionen mehr als Prozesse und Werkzeuge
+* Funktionierende Software mehr als umfassende Dokumentation
+* Zusammenarbeit mit dem Kunden mehr als Vertragsverhandlung
+* Reagieren auf Veränderung mehr als das Befolgen eines Plans
+
+
+## Agile Manifest (12 Prinzipien)
+* Kundenzufriedenheit
+* Anforderungsänderungen auch spät willkommen
+* regelmäßige Lieferung funktionierender Software 
+* Tägliche Zusammenarbeit von Fachexperten und Entwicklern während des Projektes
+* Umfeld und Unterstützung für motivierte Individuen 
+* Face-to-face Gespräche als primäre Informationsübertragung
+ * <a href="http://agilemanifesto.org/iso/de/principles.html">12 Prinzipien</a>
+
+
+## Agile Manifest (12 Prinzipien)
+* Fortschrittmaß ist funktionierende Software
+* Gleichmäßiges Tempo auf unbegrenzte Zeit 
+* Technische Exzellenz und gutes Design
+* Einfachheit im Fordergrund
+* Selbstorganisiertes Team 
+* Regelmäßige Reflektionen im Team
+ * <a href="http://agilemanifesto.org/iso/de/principles.html">12 Prinzipien</a>
 
 
 ## Extreme Programming
 * Agile Methode von Beck (2000)
- * Schrittweise Planung
- * Mini-Releases
+ * Schrittweise Planung, kurze Iterationen 
  * Simples Design 
- * Refactoring 
- * Test-First Entwicklung
- * Pair Programming 
+ * Refactoring (ständige Codeverbesserung)
+ * Test-First Entwicklung (Unit-Tests zuerst geschrieben)
+ * Pair Programming (2 Programmierer pro Computer)
  * “Kunde” bei Entwicklungsteam 
- * Ständige Integration 
+ * Mini-Releases, Ständige Integration (lauffähiges Gesamtsystem)
 
 
-##SCRUM 
-<p class=wikipedia style="text-align:left;width:100%;left:0em;position: relative;"><a target="_blank" href="https://commons.wikimedia.org/wiki/File:Scrum_process-de.svg#/media/File:Scrum_process-de.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scrum_process-de.svg/1200px-Scrum_process-de.svg.png" alt="Scrum process-de.svg"></a><br>Von <a href="//commons.wikimedia.org/wiki/File:Scrum_process.svg" title="File:Scrum process.svg">Scrum_process.svg</a>: <a href="//commons.wikimedia.org/w/index.php?title=User:Lakeworks&amp;action=edit&amp;redlink=1" class="new" title="User:Lakeworks (page does not exist)">Lakeworks</a>
-derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" title="User:Sebastian Wallroth">Sebastian Wallroth</a> (<a href="//commons.wikimedia.org/wiki/User_talk:Sebastian_Wallroth" title="User talk:Sebastian Wallroth"><span class="signature-talk">talk</span></a>) - <a href="//commons.wikimedia.org/wiki/File:Scrum_process.svg" title="File:Scrum process.svg">Scrum_process.svg</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10772971">Link</a></p>
+## Extreme Programming 
+* Änderungskostenkurve in Abhängigkeit vom Zeitpunkt der Änderung
+<p><a href="https://commons.wikimedia.org/wiki/File:Xpkurve.png#/media/File:Xpkurve.png"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Xpkurve.png" alt="Xpkurve.png"></a><br>Von ​<a href="https://de.wikipedia.org/wiki/Main_Page" class="extiw" title="de:Main Page">German Wikipedia</a> Benutzer <a href="https://de.wikipedia.org/wiki/User:GuidoZockoll" class="extiw" title="de:User:GuidoZockoll">GuidoZockoll</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=5068618">Link</a></p>
+
+
+## Extreme Programming
+* Rollen
+ * Product Owner - Verantwortung, setzt Prioritäten 
+ * Kunde - Auftraggeber
+ * Entwickler 
+ * (Projektmanager) - Teamführung
+ * Benutzer - Nutzer des Produktes
+
+
+## Extreme Programming
+* User Stories
+<p><a href="https://commons.wikimedia.org/wiki/File:Risk-value-priorisierung.png#/media/File:Risk-value-priorisierung.png"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Risk-value-priorisierung.png" alt="Risk-value-priorisierung.png"></a><br>Von <a href="https://de.wikipedia.org/wiki/Benutzer:Michael_H%C3%BCttermann" class="extiw" title="de:Benutzer:Michael Hüttermann">Michael Hüttermann</a> - <span class="int-own-work" lang="de" xml:lang="de">Eigenes Werk</span>, Gemeinfrei, <a href="https://commons.wikimedia.org/w/index.php?curid=5068629">Link</a></p>
 
 
 ## SCRUM 
 * Agiles Projektmanagement
-* Sprints: ca 2-4 Wochen 
-* Produkt Backlog: Liste von Aufgaben für das Projekt als Planungsstartpunkt
+
+<p class=wikipedia style="text-align:left;width:100%;left:0em;position: relative;"><a target="_blank" href="https://commons.wikimedia.org/wiki/File:Scrum_process-de.svg#/media/File:Scrum_process-de.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scrum_process-de.svg/1200px-Scrum_process-de.svg.png" alt="Scrum process-de.svg"></a><br>Von <a href="//commons.wikimedia.org/wiki/File:Scrum_process.svg" title="File:Scrum process.svg">Scrum_process.svg</a>: <a href="//commons.wikimedia.org/w/index.php?title=User:Lakeworks&amp;action=edit&amp;redlink=1" class="new" title="User:Lakeworks (page does not exist)">Lakeworks</a>
+derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" title="User:Sebastian Wallroth">Sebastian Wallroth</a> (<a href="//commons.wikimedia.org/wiki/User_talk:Sebastian_Wallroth" title="User talk:Sebastian Wallroth"><span class="signature-talk">talk</span></a>) - <a href="//commons.wikimedia.org/wiki/File:Scrum_process.svg" title="File:Scrum process.svg">Scrum_process.svg</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10772971">Link</a></p>
+
+
+##SCRUM 
+* Sprint (2-4 Wochen)
+* Arbeitsabschnitt um bestimmte Funktionalität zu entwickeln
+* Sprint Planning (max. 2 Stunden) 
+ * Was wird entwickelt? 
+ * Wie wird es erledigt?
+
+
+ ##SCRUM 
+* Product-Backlog: Liste von Aufgaben für das Projekt als Planungsstartpunkt
+* Sprint-Backlog: Detaillierter Plan für nächsten Sprint
 * Selection Phase: Features/Funktionalitäten für Sprint zusammen mit Kunde gewählt
-* Development: mit “Daily Meetings” /7 Scrum Master
+* Development: mit “Daily Scrum Meetings” / Scrum Master
 * Review (Code Review): Ende von Sprint 
 
 
@@ -182,6 +264,21 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
  * Hoher Kommunikationsaufwand 
  * Zeitverlust bei schlechten Sprintplanungen
  * Schwieriger Umsetzbar bei Großprojekten (Höherer Koordinationsaufwand erfordert)  
+
+
+##Project Success 
+<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/Modern%20Resolution.jpg"/></p>
+<a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
+
+
+##Project Success 
+<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/Resolution%20by%20Project%20Size.jpg"/></p>
+<a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
+
+
+##Project Success 
+<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/1Resolution%20Agile%20Waterfall.jpg"/></p>
+<a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
 
 
 ## Literatur
@@ -220,12 +317,13 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 * verfolgbar (traceable)
 
 
-
 # (2) Design und Implementierung
 
 
 ## Systemdesign
-
+* Softwarearchitektur (Komponentendarstellung, Systemdesign)
+* Objektorientierte Analyse und Design (Anforderungsanalyse und Systementwurf, UML)
+* Datenmodellierung, Entity-Relationship-Modell (e.g. Datenbankschema)
 
 
 # (3) Verifikation & Validierung
@@ -245,7 +343,6 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 * Software Test
  * Programm „läuft“ mit Testdaten (Dynamischer Ansatz)
  * Ausgaben und Laufverhalten wird überprüft
-
 
 
 # (4) Weiterentwicklung
@@ -279,6 +376,32 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 # Debugging und Fehlersuche
 
 
+## Debugger
+* Diagnose und Auffindung von Fehlern und Problemen
+* Funktionen
+ * Haltepunkte setzen (Einzelschritte überprüfen)
+ * Daten untersuchen (Daten in flüchtigem Speicher)
+ * Speicher modifizieren 
+
+
+## Fehlertypen 
+* Laufzeitfehler
+ * Arten von Fehler, die erst auftregen, während das Programm exekutiert wird 
+ * e.g. durch falsche Eingabe
+* Programmierfehler (verhindern das Kompilieren) 
+ * Lexikalischer Fehler (undefinierte Variablen)
+ * Syntaxfehler (fehlende Klammer)  
+
+
+## Fehlertypen
+* Semantische Fehler (inhaltlich falsch: e.g. Verwechslung vom Befehlcode)
+
+```python
+
+ * a = 0 vs a ==0 
+```
+
+
 ## Fehlertypen
 * Artithmetische Fehler
  * Division durch null
@@ -298,14 +421,15 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 
 ## Fehlertypen
 * Logikfehler 
+ * falscher Lösungsansatz
  * Endlosschleifen 
  * Endlose Rekursionen 
  * Off-by.one error in Arrays (OBOE)
-* Syntax 
 
-```python
- * a = 0 vs a ==0 
-```
+
+## Fehlertypen
+* Designfehler
+ * Fehler im Grundkonzept des Designs (e.g. durch mangelnde Erfahrung oder falsche Anforderungsspezifikation)
 
 
 ## Fehlertypen
