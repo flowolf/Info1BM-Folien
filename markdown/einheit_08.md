@@ -247,7 +247,7 @@ def hanoi(ring,stab1="stab1",stab2="stab2",stab3="stab3"):
 * helfen Programme aufzuteilen
 * Programmcode kann wieder verwendet werden
 * einzubinden über `import`
-* externe Module/Bibliotheken können importier werden
+* externe Module/Bibliotheken können importiert werden
 
 
 ## Module in Python
