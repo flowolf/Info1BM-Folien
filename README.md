@@ -25,3 +25,7 @@ Weitere Informationen zur LV gibt es [hier](https://palme.iicm.tugraz.at/wiki/In
 
 [Einheit 09](https://flowolf.github.io/Info1BM-Folien/einheit_09.html)
 
+[Einheit 10](https://flowolf.github.io/Info1BM-Folien/einheit_10.html)
+
+[Einheit 11](https://flowolf.github.io/Info1BM-Folien/einheit_11.html)
+
