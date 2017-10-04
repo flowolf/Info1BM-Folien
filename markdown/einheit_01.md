@@ -99,13 +99,13 @@
 
 |  Datum | Uhrzeit |            | Datum | Uhrzeit |  |
 |:- |:- | -: |
-| 2016-10-04 | 16:00 c.t. |              | 2016-11-29 | 16:00 s.t. | |
-| 2016-10-11 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2016-12-06 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> |
-| 2016-10-19 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2017-12-13 | 16:00 s.t. | |
-| 2016-10-25 | 16:00 s.t. |              | 2017-01-10 | 16:00 s.t. | Ersatztermin\* |
-| 2016-11-08 | 16:00 s.t. |              | **2017-01-17** | **16:00 s.t.** | **Prüfung** |
-| 2016-11-15 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2017-01-24 | 16:00 s.t. | Prüfung\* |
-| 2016-11-22 | 16:00 s.t. |              | 2017-01-31 | 16:00 s.t. | Prüfung\*\* |
+| 2017-10-04 | 16:00 c.t. |              | 2017-11-29 | 16:00 s.t. | |
+| 2017-10-11 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2017-12-06 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> |
+| 2017-10-19 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2017-12-13 | 16:00 s.t. | |
+| 2017-10-25 | 16:00 s.t. |              | 2017-01-10 | 16:00 s.t. | Ersatztermin\* |
+| 2017-11-08 | 16:00 s.t. |              | **2017-01-17** | **16:00 s.t.** | **Prüfung** |
+| 2017-11-15 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2017-01-24 | 16:00 s.t. | Prüfung\* |
+| 2017-11-22 | 16:00 s.t. |              | 2017-01-31 | 16:00 s.t. | Prüfung\*\* |
 
 \* für krankheitsbedingte Ausfälle,
 \*\* Wiederholdungsmöglichkeit (für Antritte vom 2017-01-17, 2017-01-24)<!-- .element: style="font-size:0.5em;" -->
