@@ -1,5 +1,4 @@
-# Informatik 1
-## 706.088
+# 706.088 Informatik 1
 
 
 ## Lehrveranstaltungsleitung
@@ -25,20 +24,21 @@
 |  <i class="fa fa-user" aria-hidden="true"></i>  | DI Florian Klien | DI Patrick Kasper |
 | :-: |:-:|:-:|
 |  |  Vorlesung, Organisation<!-- .element: style="font-size:0.5em;text-align:center;" --> |   Übungen<!-- .element: style="font-size:0.5em;text-align:center;" -->  |
-| <i class="fa fa-sitemap" aria-hidden="true"></i> | Institut für Informationssysteme und Computer Medien (IICM)<!-- .element: style="font-size:0.7em;text-align:center;" --> | Institut für Wissenstechnologien (KTI)<!-- .element: style="font-size:0.7em;text-align:center;" --> |
-| <i class="fa fa-map-marker" aria-hidden="true"></i> | Inffeldgasse 16c/I | Inffeldgasse 13/V |
+| <i class="fa fa-sitemap" aria-hidden="true"></i> | Institute of Interactive Systems and Data Science (ISDS)<!-- .element: style="font-size:0.7em;text-align:center;" --> | |
+| <i class="fa fa-map-marker" aria-hidden="true"></i> | Inffeldgasse 16c/I | Petersgasse 116-118/E |
 | <i class="fa fa-envelope-o" aria-hidden="true"></i> | [klien@tugraz.at](mailto:klien@tugraz.at) | [patrick.kasper@tugraz.at](mailto:patrick.kasper@tugraz.at) |
 | <i class="fa fa-calendar-check-o" aria-hidden="true"></i> | Sprechstunde nach Vereinbarung<!-- .element: style="font-size:0.7em;text-align:center;" --> | Sprechstunde nach Vereinbarung<!-- .element: style="font-size:0.7em;text-align:center;" --> |
 
 
 ## Übungs-Tutoren
-|  Yanick Dickbauer  |  Fiona Draxler, B.Sc  |  Edda van Husen  |
-|:-:|:-:|:-:|
-|  ![](imgs/01/photo_yannik1.jpg) <!-- .element: style="height:250px;" --> |  ![](imgs/01/photo_fiona1.jpg) <!-- .element: style="height:250px;" --> | ![](imgs/01/photo_edda1.jpg) <!-- .element: style="height:250px;" --> |
+* Florian Hofer
+* Yasmine Heyer
+* Maximilian Riedel
+* Benjamin Rohr
 
 
 
-#Benotung
+# Benotung
 
 
 ## Benotung
@@ -60,19 +60,19 @@
 |  25.5%         |  25.5%    |  51%    |   4  |
 |  26%           |  49%      |  75%    |   3  |
 |  45%           |  39%      |  84%    |   2  |
-* Mögliche Wiederholung der VO-Prüfung Anfang März<!-- .element: class="fragment" data-fragment-index="1" -->
+* Mögliche Wiederholung der VO-Prüfung Ende Jänner<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
-##Bewertungs-schlüssel
+## Bewertungs-schlüssel
 
 | % | Note |
 | -: |:-:|
-| 95.5 - 105%\* |  1  |
+| 95.5 - 107%\* |  1  |
 | 82.5 - 95%  |  2  |
 | 65.5 - 82%  |  3  |
 | 51 - 65%    |  4  |
 | 0 - 50.5%   |  5  |
-\* 5 mögliche Bonuspunkte in Übung 3 <!-- .element: style="font-size:0.5em;" -->
+\* 5 mögliche Bonuspunkte in Übung 3, 2 in der VO <!-- .element: style="font-size:0.5em;" -->
 
 
 <!-- ## Python 3 -->
@@ -95,20 +95,20 @@
 
 
 
-##Ablauf <!-- .slide: style="font-size:0.8em;" -->
+## Ablauf <!-- .slide: style="font-size:0.8em;" -->
 
 |  Datum | Uhrzeit |            | Datum | Uhrzeit |  |
 |:- |:- | -: |
-| 2016-10-03 | 16:00 c.t. |              | 2016-12-07 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> UE 3 |
-| 2016-10-05 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> UE 0         | 2016-12-14 | 16:00 s.t. | |
-| 2016-10-19 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> UE 1         | 2017-01-11 | 16:00 s.t. | |
-| 2016-11-09 | 16:00 s.t. |              | 2017-01-18 | 16:00 s.t. | |
-| 2016-11-16 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> UE 2         | **2017-01-25** | **16:00 s.t.** | **Prüfung** |
-| 2016-11-23 | 16:00 s.t. |              | 2017-02-01 | 16:00 s.t. | Prüfung\* |
-| 2016-11-30 | 16:00 s.t. |              | 2017-03-06 | 16:00 s.t. | Prüfung\*\* |
+| 2016-10-04 | 16:00 c.t. |              | 2016-11-29 | 16:00 s.t. | |
+| 2016-10-11 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2016-12-06 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> |
+| 2016-10-19 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2017-12-13 | 16:00 s.t. | |
+| 2016-10-25 | 16:00 s.t. |              | 2017-01-10 | 16:00 s.t. | Ersatztermin\* |
+| 2016-11-08 | 16:00 s.t. |              | **2017-01-17** | **16:00 s.t.** | **Prüfung** |
+| 2016-11-15 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2017-01-24 | 16:00 s.t. | Prüfung\* |
+| 2016-11-22 | 16:00 s.t. |              | 2017-01-31 | 16:00 s.t. | Prüfung\*\* |
 
 \* für krankheitsbedingte Ausfälle,
-\*\* Wiederholdungsmöglichkeit (für Antritte vom 2017-01-25, 2017-02-01)<!-- .element: style="font-size:0.5em;" -->
+\*\* Wiederholdungsmöglichkeit (für Antritte vom 2017-01-17, 2017-01-24)<!-- .element: style="font-size:0.5em;" -->
 
 
 ## Kein Weg zurück
@@ -116,10 +116,8 @@
 
 
 ## Ziele der LV
-* Themen und Grundlagen der Informatik
-* Zusammenhang mit anderen Disziplinen
-* Teilgebiete der Informatik
 * Algorithmisches Denken
+* Programmieren mit Python
 * Geschichte und Funktion eines Computers
 * Aufgaben des Betriebssystems
 * Geschichte und Funktion des Internets
@@ -164,14 +162,12 @@ Blaise Pascal und Wilhem Schickard
   * Addition
   * Subtraktion
   * von 2 Zahlen
-
-
-
+<!--
 * Charles Babbage (1791-1871)
 * einer der Väter des (mechanischen) Computers
 * 1820-1822 Bau der 'Difference Engine No.0'
 * 44 Ergebnisse pro Minute
-* Teil einer noch grösseren zukünftigen Maschine
+* Teil einer noch grösseren zukünftigen Maschine -->
 
 
 
@@ -194,13 +190,13 @@ Oxford Dictionary:
 
 [![](imgs/01/creditcard.jpg)<!-- .element: style="float:left; height:200px;" -->](https://pixabay.com/p-229830/?no_redirect)<!-- .element: class="fragment" data-fragment-index="4" -->
 [![](imgs/01/fordmondeo_speedo.jpg)<!-- .element: style="float:left; height:200px;" -->](https://commons.wikimedia.org/wiki/File:Ford_Mondeo_MK3_ST220_-_Speedometer_(light%29.jpg)<!-- .element: class="fragment" data-fragment-index="5" -->
-[![](imgs/01/mac_iphone.jpg)<!-- .element: style="float:left; height:200px;" -->](https://pixabay.com/p-563070/?no_redirect)<!-- .element: class="fragment" data-fragment-index="6" -->
+[![](imgs/01/iphone_pods.jpg)<!-- .element: style="float:left; height:200px;" -->](https://pixabay.com/p-563070/?no_redirect)<!-- .element: class="fragment" data-fragment-index="6" -->
 [![](imgs/01/philips_hue.jpg)<!-- .element: style="float:left; height:200px;" -->](https://c2.staticflickr.com/4/3925/15204871121_56f6aba738_b.jpg)<!-- .element: class="fragment" data-fragment-index="7" -->
-<!--[![](imgs/01/gameboy1.jpg) <!-- .element: style="float:left; height:200px;" - ->](https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg)<!-- .element: class="fragment" data-fragment-index="8" -->
+[![](imgs/01/gameboy1.jpg) <!-- .element: style="float:left; height:200px;" -->](https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg)<!-- .element: class="fragment" data-fragment-index="8" -->
 
 
 
-##Aufbau eines Computers
+## Aufbau eines Computers
 #### Von Neumann Architektur
 
 ![Von Neumann Architektur](imgs/01/Von-Neumann_Architektur.svg)<!-- .element: style="height: 10em;" -->
@@ -210,7 +206,7 @@ Oxford Dictionary:
 
 ## Moore's Law
 * Gordon Moore
-  * Moore`s Law 1965:
+  * Moore's Law 1965:
     * Anzahl der Transistoren auf ICs verdoppelt sich in
     regelmäßigen Abständen (alle 2 Jahre)
     * Leistung verdoppelt sich auch bei MIPS
@@ -228,62 +224,6 @@ Oxford Dictionary:
 [![](imgs/01/bigphone.jpg)<!-- .element: style="float:left; height:350px;" -->](https://commons.wikimedia.org/wiki/File:2007Computex_e21Forum-MartinCooper.jpg#/media/File:2007Computex_e21Forum-MartinCooper.jpg)
 [![](imgs/01/bigphone2.jpg)<!-- .element: style="float:left; height:350px;" -->](https://commons.wikimedia.org/wiki/File:Nokia_150_and_nokia_1100.jpg#/media/File:Nokia_150_and_nokia_1100.jpg)
 [![](imgs/01/bigphone3.jpg)<!-- .element: style="float:left; height:350px;" -->](https://en.wikipedia.org/wiki/AMOLED#/media/File:Samsung_Galaxy_S_II_in_hand.jpg)
-
-
-
-## Teilgebiete der Informatik
-Die Informatik lässt sich in folgende Teilgebiete gliedern:
-* Theoretische Informatik
-* Technische Informatik
-* Praktische Informatik
-* Angewandte Informatik
-* Interdisziplinäre Informatik
-
-
-
-## Theoretische Informatik
-  Beschäftigt sich mit (theoretischen) Grundlagenfragen der Informatik
-  über formale Sprachen wie
-* Berechenbarkeitstheorie
-* Komplexitätstheorie
-* __Logik__
-* Graphentheorie
-* Kryptologie
-
-
-
-## Technische Informatik
-Beschäftigt sich mit der Hardware der Informatik zur Lösung verschiedenster
-Anforderungen wie
-* Echtzeitsysteme
-* Eingebettete Systeme
-* Mikroprozessoren
-* __Rechnerarchitektur__
-* __Rechnernetze__
-
-
-
-## Praktische Informatik
-* __Softwareentwicklungsprozess__
-* __Algorithmen__
-  * Suchen und
-  * Sortieren von Daten
-* __Datenstrukturen__
-  * Bäume
-  * Halden
-  * Stapelspeicher
-  * Listen
-
-
-
-## Angewandte Informatik
-  Die Angewandte Informatik beschäftigt sich mit der Erforschung und
-  Entwicklung von Anwendungen von Rechnern wie
-* Grafische Datenverarbeitung
-* Datenbanksysteme
-* Numerik
-* Künstliche Intelligenz
-
 
 
 ## Das Internet
@@ -319,15 +259,14 @@ Anforderungen wie
 [![](imgs/01/connectivity_of_the_web.jpg)](http://www9.org/w9cdrom/160/160.html)
 
 
-## Hyper-G - Eine Konkurrenz aus Graz
-* Das Web ist 'dumm'
+## Hyper-G
+#### Eine Konkurrenz aus Graz
 * Ein Link im Web kann 'gebrochen' werden
   * Wenn eine Seite nicht mehr existiert
   * Wenn die Seite umzieht
 * Lösung:
   * Links müssen von beiden Seiten akzeptiert werden
   * Problem: Grosser Ressourcenbedarf und Arbeitsaufwand
-
 
 
 ## Suchindex für das Web
@@ -355,18 +294,6 @@ das Web indizieren und jede verfügbare Information auffindbar machen.
 * 57.000 Mitarbeiter
 * etwa 110 Mrd USD Umsatz
 * 2\. wertvollste Marke der Welt
-
-
-
-## Weiterführende Literatur
-<i class="fa fa-book" aria-hidden="true"></i> [Grundlagen der Informatik](urn:isbn:978-3-86894-111-1), Helmut Herold, Bruno Lurz, Jürgen Wohlrab
-Paerson Studium - IT;
-Gebundene Ausgabe
-* Geschichte und Teilgebiete der Informatik
-* Aufbau eines Computers
-* Konzepte der Programmierung
-* Betriebssysteme
-* Rechnernetze und das Internet
 
 
 ## Fragen?
