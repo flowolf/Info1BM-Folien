@@ -5,8 +5,12 @@ Weitere Informationen zur LV gibt es [hier](https://palme.iicm.tugraz.at/wiki/In
 
 ## Folien
 
+Der PDF export der Folien kann im Ordner 'export' gefunden werden.
+
 [INDEX](https://flowolf.github.io/Info1BM-Folien)
 
 [Einheit 01](https://flowolf.github.io/Info1BM-Folien/einheit_01.html)
+
+[Einheit 02](https://flowolf.github.io/Info1BM-Folien/einheit_02.html)
 
 
