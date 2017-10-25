@@ -234,6 +234,7 @@ a
 sorted(a, key=lambda x: -x)
 a
 # B-Sprache Einzeiler
+# https://de.wikipedia.org/wiki/Spielsprache#B-Sprache
 s = "Das ist ein Test String"
 "".join([(lambda x: x if x not in "aeiouAEIOU" else x+"b"+x.lower())(l) for l in s])
 s = "Alle Kinder sind da" 
