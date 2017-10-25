@@ -71,7 +71,7 @@ interpret the base from the string as an integer literal.
 int(str(0b100),0)
 ```
 ```python
-100
+4
 ```
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -257,9 +257,13 @@ my_list3 = ["G", "H", "I"]
 [(a,b,c) for a in my_list1 for b in my_list2 for c in my_list3]
 ```
 ```python
-[('A', 'D'), ('A', 'E'), ('A', 'F'), ('B', 'D'),
- ('B', 'E'), ('B', 'F'), ('C', 'D'), ('C', 'E'),
- ('C', 'F')]
+[('A', 'D', 'G'), ('A', 'D', 'H'), ('A', 'D', 'I'), ('A', 'E', 'G'),
+ ('A', 'E', 'H'), ('A', 'E', 'I'), ('A', 'F', 'G'), ('A', 'F', 'H'),
+ ('A', 'F', 'I'), ('B', 'D', 'G'), ('B', 'D', 'H'), ('B', 'D', 'I'),
+ ('B', 'E', 'G'), ('B', 'E', 'H'), ('B', 'E', 'I'), ('B', 'F', 'G'),
+ ('B', 'F', 'H'), ('B', 'F', 'I'), ('C', 'D', 'G'), ('C', 'D', 'H'),
+ ('C', 'D', 'I'), ('C', 'E', 'G'), ('C', 'E', 'H'), ('C', 'E', 'I'),
+ ('C', 'F', 'G'), ('C', 'F', 'H'), ('C', 'F', 'I')]
  ```
  <!-- .element: class="fragment" data-fragment-index="1" -->
 
