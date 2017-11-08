@@ -6,7 +6,6 @@
   - Attribute
   - Methoden
 - Vererbung
-- Module
 
 
 ## Wiederholung
@@ -168,82 +167,6 @@ Konstruktor in A
 2
 ```
 <!-- .element: class="fragment" data-fragment-index="1" -->
-
-
-
-## Module in Python
-
-* helfen Programme aufzuteilen
-* Programmcode kann wieder verwendet werden
-* einzubinden über `import`
-* externe Module/Bibliotheken können importiert werden
-
-
-## Module in Python
-* Bsp:
-  * `math`
-    * `sin()`,`cos()`,`log()`
-    * `pi`, `e`
-  * `os`
-    * `listdir()`,`name`, `uname()`...
-  * `datetime`
-  * `random`
-
-
-## PyPi
-- [Python Package Index](https://pypi.python.org/pypi)
-- [pip3](https://pip.pypa.io/en/stable/) install <package>
-
-
-## Einbinden eigener Module
-* Bsp:
-  * Helfer Funktionen in `myfunctions.py`
-  * `import myfunctions`
-    * stellt Funktionen von `myfunctions.py` bereit
-
-```python
-# myfunctions.py
-def helper(test):
-    return test*100
-```
-```python
-# myprogram.py
-import myfunctions
-
-print(myfunctions.helper(10))
-```
-
-
-## Einbinden eigener Module
-```python
-# myfunctions.py
-def helper(test):
-    return test*100
-```
-```python
-# myprogram.py
-import myfunctions as mf
-
-print(mf.helper(10))
-```
-
-
-## Module zu Paketen zusammenfassen
-* Ordner mit Paketnamen
-* Ein File für jedes Modul
-
-```txt
-mypackage/
-  __init__.py # optional
-  myfunctions.py
-  module2.py
-  module3.py
-```
-```python
-from mypackage import myfunctions
-from mypackage import * # alles importieren, setzt __init__.py voraus
-```
-Siehe Doku [<i class="fa fa-info-circle" aria-hidden="true" title="Info"></i>](https://docs.python.org/3/tutorial/modules.html#packages)
 
 
 
