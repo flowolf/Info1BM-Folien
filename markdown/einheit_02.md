@@ -2,7 +2,6 @@
 ### Einführung in die Programmierung
 
 
-
 ### Wiederholung
 
 
@@ -13,11 +12,11 @@
   * Strukturen, Variablen, Schleifen etc.
 
 
-Aber
-* Wie wird aus "Text" ein ausführbares Programm?
+
+Wie wird aus "Text" ein ausführbares Programm?
 
 
-# Programmier Werkzeuge
+## Programmier Werkzeuge
 Bei der Übersetzung von **Quellcode (Source-Code)**,
 geschriebenem Programmcode,
 übersetzt der Computer das Programm in Maschinensprache.
@@ -61,16 +60,16 @@ geschriebenem Programmcode,
 
 
 
-# Python<!-- .element: class="light shadow" -->
-<!-- .slide: data-background-image="imgs/02/photo-1474314170901-f351b68f544f.jpeg" -->
+# Python
+
 
 
 ## Python3
 * für Übung: Python 3.5
-* gut lesbar, klar strukturiert <!-- .element: class="fragment" data-fragment-index="1" -->
-* interpretiert <!-- .element: class="fragment" data-fragment-index="2" -->
-* seit 1991, Python3 seit 2008 <!-- .element: class="fragment" data-fragment-index="3" -->
-* läuft auf allen gängigen Betriebssystemen <!-- .element: class="fragment" data-fragment-index="4" -->
+* gut lesbar, klar strukturiert 
+* interpretiert 
+* seit 1991, Python3 seit 2008 
+* läuft auf allen gängigen Betriebssystemen 
 
 
 ### Python
@@ -87,8 +86,8 @@ Google: Python Cheat Sheet
 
 
 
-# Hello World!<!-- .element: class="dark shadow higher" -->
-<!-- .slide: data-background-image="imgs/02/photo-1461770354136-8f58567b617a.jpeg" -->
+# Hello World!
+
 
 
 
@@ -103,7 +102,7 @@ Google: Python Cheat Sheet
 * Erstellen eines Programms
   * Arbeitsschritte, Tools
 * Programmablauf steuern
-  * Variablen
+  * Variablen, Datentypen
   * Kontrollstrukturen
   * Schleifen
 * Programm strukturieren
@@ -117,30 +116,30 @@ Google: Python Cheat Sheet
   * Abstrahiert komplexe Konzepte
   * Einfacher Einstieg
     * Texteditor, Programm & Konsole
-  <!-- * Einfache Installation -->
+  
   * Gute Dokumentation
   * Zwingt zu klarer Code-Struktur
   * Für alle grossen Plattformen verfügbar
-  * sogar auf Micro-Controllern <!-- .element: class="fragment" data-fragment-index="5" --> → [µPython](https://micropython.org)
+  * sogar auf Micro-Controllern  → [µPython](https://micropython.org)
 
 
 
-<!-- slide: data-background-image="imgs/pybv10-pinout.jpg" -->
+
 ![Micropython PyBoard](imgs/02/pybv10-pinout.jpg)
 
 
 
-# Demo<!-- .element: class="light shadow" -->
-<!-- .slide: data-background-image="imgs/02/14116941824817ba1f28e78c8dff1.jpeg" -->
+# Demo
 
 
-# Video<!-- .element: class="light" -->
-<!-- .slide: data-background-iframe="https://www.youtube.com/embed/5LbgyDmRu9s" -->
+
+# Video
+
 [<i class="fa fa-youtube-square" aria-hidden="true"></i> go there](https://youtu.be/5LbgyDmRu9s)
 
 
 
-## Aufbau eines Programms
+## Aufbau eines Programms 
 ```python
 import sys
 
@@ -187,9 +186,9 @@ $ python3 test.py
 
 * 4 Spaces (Leerzeichen) pro Level bei Einrückung
 * max. 79 Zeichen pro Zeile
-* <!-- .element: class="fragment" data-fragment-index="1" -->
+* 
 Im Detail studieren und für Übung beachten!
-* <!-- .element: class="fragment" data-fragment-index="2" -->
+* 
  <i class="fa fa-exclamation-triangle fa-tugraz-color" aria-hidden="true"></i> Beispiele der Vorlesung halten sich nicht unbedingt an diese Vorgaben (Platzbedarf)
 
 
@@ -274,7 +273,7 @@ print(list(w for w in keyword.kwlist), end=" ")
 # Wahrheitswerte (Boolean)
 var = True
 # Natürliche Zahl (Integer)
-var = 101
+var = 1234
 # Reelle Zahl (Float)
 var = 3.1415
 # Text (String)
@@ -454,7 +453,7 @@ else:
 ```bash
 b >= a!
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 
 
 ### if elif else
@@ -472,7 +471,7 @@ else:
 ```bash
 neither, ...
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 
 
 ### if verschachtelt
@@ -491,11 +490,11 @@ else:
 ```bash
 a = 10
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
-# Schleifen <!-- .element: class="light shadow lower" --> <!-- X -->
-<!-- .slide: data-background-image="imgs/02/tiger-and-turtle-52691.jpg" --> <!-- X -->
+
+# Schleifen 
+
 
 
 ## Schleifen
@@ -517,7 +516,7 @@ print(a)
 ```bash
 10
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 
 
 ## while
@@ -538,7 +537,7 @@ print(a)
 10
 10
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 
 
 ## while
@@ -554,7 +553,7 @@ print(a)
 ```bash
 4
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 
 
 ## for
@@ -572,7 +571,7 @@ Dog
 Snake
 Cow
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 
 
 ## for als Zählschleife
@@ -588,46 +587,77 @@ for count in range(0,5): # von 0, bis exklusive 5
 3
 4
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 ```python
 for count in range(0,5,2): # mit Schrittgröße 2
   print(count)
 ```
-<!-- .element: class="fragment" data-fragment-index="2" -->
+
 ```bash
 0
 2
 4
 ```
-<!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
-# Fragen? <!-- .element: class="dark shadow" -->
 
-<!--
-# List Test
+### Definition eines guten Programms
+* Funktionalität 
+* Lesbarkeit 
+* Wartbarkeit 
+* Robustheit 
+* Korrektheit 
+* Effizienz 
+* Portierbarkeit 
 
-* Bla 1, my very important point
-  * bla 2, some sub points which are also important
-    * bla 3
-  * bla 2 again
-    * bla 4
-      * bla 5
 
+
+# Funktionen
+
+
+## Funktionen
+dienen der Kapselung von Code nach logischen Einheiten
 ```python
+pets = ["Hamster", "Cat", "Dog", "Canary"]
+
+def not_a_dog_person(animal):
+  return animal.replace("Dog", "Fish")
+
+for pet in pets:
+  print("Tom: {:10} Tim: {}".format(pet, not_a_dog_person(pet)))
 ```
 ```bash
-```<!-  - element: class="fragment" data-fragment-index="1" - ->
-//-->
+Tom: Hamster    Tim: Hamster
+Tom: Cat        Tim: Cat
+Tom: Dog        Tim: Fish
+Tom: Canary     Tim: Canary
+```
 
 
-#### Nächest mal
 
-Funktionen, Geschichte & Teilgebiete
+## Funktionen
+```python
+def add(x, y):
+    return x + y
 
-der Informatik
+def print_result(result):
+    print("Result: {}".format(result))
+
+def main():
+    a = 10
+    b = 20
+    c = add(a, b)
+    print_result(c)
+
+if __name__ == "__main__":
+    main()
+```
+```bash
+Result: 30
+```
 
 
-Bildquellen:
-Alle Bilder befinden sich unter einer [CC-0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) Lizenz
+
+
+# Fragen? 

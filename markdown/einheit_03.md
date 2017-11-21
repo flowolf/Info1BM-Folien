@@ -1,19 +1,8 @@
 # 706.088 Informatik 1
-## Funktionen, Teilgebiete der Informatik & Geschichte
+## Geschichte & Binäre Operationen
 
 
 ## Wiederholung Programmierung
-
-
-
-## Hello World <i class="twa twa-party-popper"></i>
-```python
-print("Hello World!")
-```
-```bash
-Hello World!
-```
-
 
 
 ## Deklaration von Variablen
@@ -99,7 +88,6 @@ and ever
 ```
 
 
-
 ## Schleifen
 ```python
 list = ["test1", "test2", "test3"]
@@ -111,30 +99,6 @@ test1
 test2
 test3
 ```
-
-
-
-# Funktionen
-
-
-## Funktionen
-dienen der Kapselung von Code nach logischen Einheiten
-```python
-pets = ["Hamster", "Cat", "Dog", "Canary"]
-
-def not_a_dog_person(animal):
-  return animal.replace("Dog", "Fish")
-
-for pet in pets:
-  print("Tom: {:10} Tim: {}".format(pet, not_a_dog_person(pet)))
-```
-```bash
-Tom: Hamster    Tim: Hamster
-Tom: Cat        Tim: Cat
-Tom: Dog        Tim: Fish
-Tom: Canary     Tim: Canary
-```
-<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 ## Funktionen
@@ -160,45 +124,6 @@ Result: 30
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
-### Definition eines guten Programms
-* Funktionalität <!-- .element: class="fragment" data-fragment-index="1" -->
-* Lesbarkeit <!-- .element: class="fragment" data-fragment-index="2" -->
-* Wartbarkeit <!-- .element: class="fragment" data-fragment-index="3" -->
-* Robustheit <!-- .element: class="fragment" data-fragment-index="4" -->
-* Korrektheit <!-- .element: class="fragment" data-fragment-index="5" -->
-* Effizienz <!-- .element: class="fragment" data-fragment-index="6" -->
-* Portierbarkeit <!-- .element: class="fragment" data-fragment-index="7" -->
-
-
-
-## Eingabe-/Ausgabe Parameter
-```python
-import sys
-
-print(sys.argv)
-```
-```bash
-$ python3 sysargv.py test1 123 --flag
-['sysargv.py', 'test1', '123', '--flag']
-```
-<!-- .element: class="fragment" data-fragment-index="1" -->
-
-
-
-```python
-import sys
-sum = 0
-for element in sys.argv[1:]:
-  sum += int(element) # same as: sum = sum + int(element)
-print(sum)
-```
-```bash
-$ python3 sysargv2.py 1 2 3 4 5 6
-21
-```
-<!-- .element: class="fragment" data-fragment-index="3" -->
-
-
 
 # Geschichte der Informatik
 
@@ -215,16 +140,6 @@ Wissenschaft der ** " systematischen " ** oder " ** automatischen Verarbeitung *
   2. Mechanik
   3. Elektronik
 * ... oder vom Abakus zum Quantencomputer
-
-
-## Mathematik und Informatik
-* Verschiedene Meilensteine zwischen 30.000 v. Chr.
-und 200 n. Chr.
-* Abakus (200 n. Chr.)
-* Begründung des Dezimalsystem (500 n. Chr.)
-* Arabische Ziffern in Europa (1200 n. Chr.)
-* Algorithmen zur Überführung von Multiplikationen in Additionen (1600 n. Chr.)
-
 
 
 ## Geschichte der Informatik
@@ -296,6 +211,29 @@ By <span lang="en">Unknown</span><a href="//www.wikidata.org/wiki/Q4233718" titl
 
 
 
+## <!-- .element: class="light shadow" -->
+<!-- .slide: data-background-image="imgs/03/casey-horner-339978.jpg"-->
+
+
+## Relais
+* Mechanischer Schalter
+  * Probleme:
+    * Umschalten dauert einige Sekundenbruchteile
+    * Benötigt viel Platz
+    * Taktfrequenz sehr beschränkt
+    * Mechanische Abnutzung
+
+
+## Relais
+<p class=wikipedia style="text-align:left;position: relative;left:-5%;"><a href="https://commons.wikimedia.org/wiki/File:Relais_Animation.gif#/media/File:Relais_Animation.gif"><img alt="Relais Animation.gif" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Relais_Animation.gif"></a><br>Von <a href="https://de.wikipedia.org/wiki/User:Quark48" class="extiw" title="de:User:Quark48">Stefan Riepl</a> in der <a href="https://de.wikipedia.org/wiki/" class="extiw" title="de:">Wikipedia auf Deutsch</a> - <span class="int-own-work" lang="de">Eigenes Werk</span>, <a title="Creative Commons Attribution-Share Alike 2.0 de" href="http://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, <br/> <a href="https://commons.wikimedia.org/w/index.php?curid=10663175">https://commons.wikimedia.org/w/index.php?curid=10663175</a></p>
+<p style="text-align: right; position: absolute; left: 60%; width: 40%; top: 35%;">
+Spule wird unter Strom gesetzt,
+Magnetfeld zieht Anker,
+Arbeitskontakte werden geschlossen,
+Strom kann fließen
+</p>
+
+
 ## Konrad Zuse (1910 - 1995)
 Entwickelte den **ersten** **Digital**-rechner weltweit, <br/>die **Z3** (1941)
 
@@ -311,6 +249,43 @@ Weitere Informationen zu Konrad Zuse: http://zuse.zib.de
 Z3 im Deutschen Museum<br/>Von <a href="https://de.wikipedia.org/wiki/User:Venusianer" class="extiw" title="de:User:Venusianer">Venusianer</a> aus der <a href="https://de.wikipedia.org/wiki/" class="extiw" title="de:">deutschsprachigen Wikipedia</a>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3632073">https://commons.wikimedia.org/w/index.php?curid=3632073</a></p>
 
 
+## First Bug
+<i class="twa twa-bug twa-3x"></i>
+
+* Bezeichnung 'Bug' für Fehler in Programmabläufen geht zurück auf Computer Pionierin **Grace Hopper**
+* Am 9. September 1947 dokumentierte sie eine Motte in einem Relais des Computers **Mark II Aiken Relay Calculator** im Log-Buch mit den Worten: **"First actual case of bug being found**"
+
+
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:H96566k.jpg#/media/File:H96566k.jpg"><img alt="H96566k.jpg" src="imgs/03/H96566k.jpg"></a><br>By Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988. - U.S. Naval Historical Center Online Library Photograph <a rel="nofollow" class="external text" href="http://www.history.navy.mil/photos/images/h96000/h96566kc.htm">NH 96566-KN</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=165211">https://commons.wikimedia.org/w/index.php?curid=165211</a><br/>
+ </p>
+
+
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg#/media/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg"><img alt="Commodore Grace M. Hopper, USN (covered).jpg" src="imgs/03/Commodore_Grace_M._Hopper,_USN_(covered).jpg" height="900" width="720"></a><br>Grace Hopper, By James S. Davis - Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=12421475">https://commons.wikimedia.org/w/index.php?curid=12421475</a>
+<br/>
+Grace Hopper "Queen of Software" [on Letterman <i class="fa fa-youtube-square" aria-hidden="true"></i>](https://youtu.be/1-vcErOPofQ) </p>
+
+
+
+# Elektronenröhre<!-- .element: class="dark shadow" -->
+<!-- .slide: data-background-image="imgs/03/valve-840091.jpg"-->
+
+
+## Elektronenröhre
+* ist auch Schalter
+* 1000 mal schneller als Relais
+* Probleme:
+  * benötigt viel Strom
+  * Lebensdauer gering
+  * Programmierer für ENIAC waren eher Mechaniker
+
+
+## Elektronenröhre
+<p class=wikipedia  style="text-align:left;position: relative;left:0em;"><a href="https://commons.wikimedia.org/wiki/File:Triode-dt-text.svg#/media/File:Triode-dt-text.svg"><img alt="Triode-dt-text.svg" src="imgs/03/Triode-dt-text.svg"></a><br>Von <a href="//commons.wikimedia.org/w/index.php?title=User:Svjo&amp;action=edit&amp;redlink=1" class="new" title="User:Svjo (page does not exist)">Svjo</a>; German translation: Wdwd - <a href="//commons.wikimedia.org/wiki/File:Triode-english-text.svg" title="File:Triode-english-text.svg">File:Triode-english-text.svg</a>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=50578519">https://commons.wikimedia.org/w/index.php?curid=50578519</a></p>
+<div style="text-align: left; position: absolute; left: 50%; width: 50%; top: 20%;">
+Stromführende Kathode, Stromaufnehmende Anode, Spannungsgefälle:
+Elektronen wandern von Kathode zu Anode, Strom fließt.
+Ist Gitter unter Strom werden Elektronen abgestoßen, Stromfluss stoppt.
+</div>
 
 
 ## ENIAC
@@ -334,21 +309,34 @@ Erster 'rein elektronischer' Rechner
 
 
 
-## First Bug
-<i class="twa twa-bug twa-3x"></i>
-
-* Bezeichnung 'Bug' für Fehler in Programmabläufen geht zurück auf Computer Pionierin **Grace Hopper**
-* Am 9. September 1947 dokumentierte sie eine Motte in einem Relais des Computers **Mark II Aiken Relay Calculator** im Log-Buch mit den Worten: **"First actual case of bug being found**"
+## Transistor
+Shockley, Bardeen und Brattain (Bell Labs) <br/> entdecken 1947 den ersten Transistoreffekt <br/> und stellen den ersten **Transistor** vor.
+* 1956 Nobelpreis für Physik
 
 
-<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:H96566k.jpg#/media/File:H96566k.jpg"><img alt="H96566k.jpg" src="imgs/03/H96566k.jpg"></a><br>By Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988. - U.S. Naval Historical Center Online Library Photograph <a rel="nofollow" class="external text" href="http://www.history.navy.mil/photos/images/h96000/h96566kc.htm">NH 96566-KN</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=165211">https://commons.wikimedia.org/w/index.php?curid=165211</a><br/>
- </p>
+## Transistor
+![Bipolar Transistor](imgs/03/transistor-39875.svg)<!-- .element: style="position:absolute; height:9em; float: right; top: 10%; right: -0%;" -->
+* Kleiner Strom zwischen **B** asis und **E** mitter <br/>
+schaltet großen Strom zwischen <br/> **C** ollektor und Emitter
+* Basis ist im Sperrbetrieb
+  * kein Strom fließt
+  * Kollektor wartet auf Strom
+* Wenn Spannung an Basis anliegt schaltet der Transistor
+  * Strom fließt zwischen Collector und Emitter
+  * Transistor leitet
 
 
-<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg#/media/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg"><img alt="Commodore Grace M. Hopper, USN (covered).jpg" src="imgs/03/Commodore_Grace_M._Hopper,_USN_(covered).jpg" height="900" width="720"></a><br>Grace Hopper, By James S. Davis - Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=12421475">https://commons.wikimedia.org/w/index.php?curid=12421475</a>
-<br/>
-Grace Hopper "Queen of Software" [on Letterman <i class="fa fa-youtube-square" aria-hidden="true"></i>](https://youtu.be/1-vcErOPofQ) </p>
+## Transistor
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Transistor_animation.gif#/media/File:Transistor_animation.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Transistor_animation.gif" alt="Transistor animation.gif"></a><br>Von Stefan Riepl (<a href="https://de.wikipedia.org/wiki/Benutzer:Quark48" class="extiw" title="de:Benutzer:Quark48">Quark48</a> 21:02, 2. Dez. 2007 (CET)) - <span class="int-own-work" lang="de">Eigenes Werk</span> (<span lang="de">Originaltext: selbst erstellt</span>), <a href="http://creativecommons.org/licenses/by-sa/2.0/de/deed.en" title="Creative Commons Attribution-Share Alike 2.0 de">CC BY-SA 2.0 de</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=12557861">Link</a></p>
 
+
+Rechenleistung bis ca. 1960
+* 1-2 KByte Speicher
+* 0.02 MIPS
+
+Rechenleistung 1986 bis heute
+* 8 MByte - ~ 32GByte
+* \> 100 MIPS
 
 
 ## Mailüfterl
@@ -364,34 +352,6 @@ Grace Hopper "Queen of Software" [on Letterman <i class="fa fa-youtube-square" a
 [<i class="fa fa-youtube-square" aria-hidden="true"></i> go there](https://www.youtube.com/watch?v=lvaiEW-Sm4A)
 
 
-
-## Informatik
-Johann von Neumann erfindet 1946 die <br/>**Von Neumann Architektur**:
-* Programm und Daten werden gleichzeitig im Hauptspeicher gehalten
-
-
-## Aufbau eines Computers
-Von Neumann Architektur als Referenzmodell für einen Computers
-
-![Von Neumann Architektur](imgs/03/Von-Neumann_Architektur.png)<!-- .element: style="height: 10em;" -->
-
-
-
-## Informatik
-Shockley, Bardeen und Brattain (Bell Labs) <br/> entdecken 1947 den ersten Transistoreffekt <br/> und stellen den ersten **Transistor** vor.
-* 1956 Nobelpreis für Physik
-
-
-
-Rechenleistung bis ca. 1960
-* 1-2 KByte Speicher
-* 0.02 MIPS
-
-Rechenleistung 1986 bis heute
-* 8 MByte - ~ 32GByte
-* \> 100 MIPS
-
-
 ## Moore's Law
 * Anzahl der Transistoren verdoppelt sich in regelmäßigen Abständen (alle 2 Jahre).
 → Leistung in [MIPS](https://en.wikipedia.org/wiki/Instructions_per_second#MIPS) verdoppelt sich auch.
@@ -402,8 +362,353 @@ Rechenleistung 1986 bis heute
 
 
 
+# Zahlensysteme<!-- .element: class="light shadow lower" -->
+<!-- .slide: data-background-image="imgs/03/zahlensysteme_symbolbild.jpg"-->
+
+
+## Dezimal
+* **Dezimal**-system: Basis 10 (std. Integer)
+
+| Ziffern | Präfix |
+|:-:|:-:|
+| 0-9    |  "" (keiner)      |
+
+```python
+>>> i = 123
+>>> i
+123
+>>> f = int("99")
+>>> f
+99
+>>>
+```
+
+
+## Hex
+* **Hexadezimal**-system: Basis 16
+
+| Ziffern | Präfix |
+|:-:|:-:|
+| 0-9, A-F   | "0x"       |
+
+```python
+>>> h = 0xA
+>>> h
+10
+>>> h2 = 0xFF
+>>> h2
+255
+```
+
+
+## Oktal
+* **Oktal**-system: Basis 8
+
+| Ziffern | Präfix |
+|:-:|:-:|
+| 0-7    | "0o" (Null-O)  |
+
+```python
+>>> o = 0o7
+>>> o
+7
+>>> o2 = 0o144
+>>> o2
+100
+```
+
+
+## Binär
+* **Binär**-system oder **Dual**-system: Basis 2
+
+| Ziffern | Präfix |
+|:-:|:-:|
+| 0,1    | "0b"  |
+
+```python
+>>> b = 0b101
+>>> b
+5
+>>> b2 = 0b111111
+>>> b2
+63
+```
+
+
+## Binärsystem
+* Basis für Computer
+* Reduktion auf 2 Zustände
+  * 0: kein Strom, Spannung
+  * 1: Strom, Spannung
+
+
+## Binärsystem
+* Einzelne Stelle heisst: Bit (**BI**nary digi**T**)
+* rechteste Stelle: Least Significant Bit (LSB)
+* linkeste Stelle: Most Significant Bit (MSB)
+
+
+## Binärsystem
+```python
+# Dezimal
+i = 1*10**3 + 8*10**2 + 1*10**1 + 1*10**0 # 1811
+
+# Binär
+b = 1*2**3 + 1*2**2 + 0*2**1 + 1*2**0 # 13
+```
+
+
+## Binärsystem Umrechnung (n=2)
+* x(10) → x(n):
+  * x/n ⇒ y, Rest z
+  * z an Stelle 0
+  * y ⇒ x wenn y != 0
+  * von Vorne für Stelle 1, 2, …
+  * wenn y = 0 fertig.
+
+
+## Binärsystem Umrechnung
+25(10) → binär:
+  * 25/2 ⇒ 12, Rest 1
+  * 1 an Stelle 0 (LSB)
+  * 12/2 ⇒ 6, Rest 0
+  * 0 an Stelle 1
+  * 6/2 ⇒ 3, Rest 0
+  * 0 an Stelle 2
+  * …
+
+
+  * 3/2 ⇒ 1, Rest 1
+  * 1 an Stelle 3
+  * 1/2 ⇒ 0, Rest 1
+  * 1 an Stelle 4
+  * fertig: 11001
+
+
+
+## Rechnen im Binärsystem
+Grundregeln für Addition:
+
+|||
+|---|---|
+| 0 + 0 | = 0 |
+| 0 + 1 | = 1 |
+| 1 + 0 | = 1 |
+| 1 + 1 | = 0 (1 Übertrag) |
+| 1 + 1 + 1 | = 1 (1 Übertrag) |
+
+
+## Binäre Addition
+|+||
+|---|---|
+| 0101101 | = 45 |
+| 0110110 | = 54 |
+| 1111    | = Übertrag |
+| 1100011 | = 99 |
+
+
+## Binäre Subtraktion
+Computer führt Subtraktion auf Addition zurück:
+möglich durch Zweier-Komplementbildung
+* Darstellung von negativen Zahlen:
+  * MSB trägt Information über Vorzeichen
+* Limit an darstellbaren Zahlen:
+  * `s`: verfügbare Bits
+  * Kleinste darstellbare Zahl: `-2**(s-1)`
+  * Größte darstellbare Zahl: `2**(s-1)-1`
+
+
+## Positive und Negative Binärzahlen<!-- .slide: style="font-size:0.9em" -->
+| bin | dec | bin  | dec |
+|---|:-:|---|:-:|
+| 0000 | 0  | 1000 | -8  |
+| 0001 | 1  | 1001 | -7  |
+| 0010 | 2  | 1010 | -6  |
+| 0011 | 3  | 1011 | -5  |
+| 0100 | 4  | 1100 | -4  |
+| 0101 | 5  | 1101 | -3  |
+| 0110 | 6  | 1110 | -2  |
+| 0111 | 7  | 1111 | -1  |
+
+
+## Zweier-Komplementbildung
+* ist MSB 1, ist die Zahl negativ
+* Schritt 1: alle Bits invertieren
+* Schritt 2: zum Schluss 1 addieren
+
+| 5(10) → -5 | 0101(2) | -5(10) → 5  | 1011(2) |
+|---|:-|---|:-|
+| Schritt 1: invertieren | 1010  |  |  0100  |
+| Schritt 2: +1          | 1011  |  |  0101  |
+
+
+## Subtraktion
+Entspricht einer Addition mit dem Zweier-Komplement
+* Was geschieht mit Überläufen?
+  * werden verworfen
+
+| 6(10) - 2(10) |→| 6(10) + -2(10) |
+|---|-:|---|
+| 6(10) | 0110 | |
+| -2(10)| 1110 | |
+|       | 1 0100 | = 4 |
+
+
+## Multiplikation
+kann __manchmal__ durch Verschieben der Bits nach links
+durchgeführt werden
+
+* Multiplikation mit `2**n`:
+(Shiften um n Bits)
+
+| 3*2 |     | 20*8    |    |
+|---|-:|---|-:|
+| **3**        | 011  | **20**  |    010100  |
+| **2** (2**1) |  10  | **8** (2**3)   |    001000  |
+| **6**        | 110  | **160** | 010100000  |
+
+
+## Ausnahmen Multiplikation
+Bei Multiplikation mit Zahlen ungleich `2**n`
+
+```
+13(10) *   5(10)
+1101   * 101
+
+ 1101
++ 0000
++  1101
+1000001  = 65
+```
+
+
+## Division
+kann __manchmal__ durch Verschieben der Bits nach rechts
+durchgeführt werden
+
+* Division mit `2**n`:
+(Shiften um n Bits)
+
+| 4//2 = 2 |     | 24//8 = 3    |    |
+|---|-:|---|-:|
+| **4**        | 100  | **24**       |     11000  |
+| **2** (2**1) |  10  | **8** (2**3) |     01000  |
+| **2**        |  10  | **3**        |        11  |
+
+
+## Ausnahmen Division
+Bei Division mit Zahlen ungleich `2**n`
+
+```python
+25(10) //   5(10)
+   11001   // 101  = 101
+   110               ^^^
+  -101   >-----------/||
+---------             ||
+   110                ||
+ +1010  Komplement    ||
+ +   1                ||
+---------             ||
+  10001               ||
+     10 >-------------/|
+     101               |
+    -101 >-------------/
+---------
+     101
+   +1010  Komplement
+   +   1
+---------
+   10000 ---> kein Rest
+```
+<!-- .element: style="font-size:0.42em" -->
+
+
+## Limitierung der darstellbaren Zahlen
+* Gängige Computer haben 32-bit oder 64-bit Architektur:
+  * 32-bit: max positive Zahl `2**32 -1`
+  * 64-bit: max positive Zahl `2**64 -1`
+  * Python kann in Version 3 gut mit langen Zahlen umgehen.
+  * Grundproblem bleibt generell für Computer bestehen.
+
+
+```python
+>>> i = 0b11111111111111111111111111111111
+>>> i
+4294967295
+>>> i.bit_length()
+32
+>>> j = i+1
+>>> j.bit_length()
+33
+>>> bin(j)
+'0b100000000000000000000000000000000'
+>>> i64 = 0b1111111111111111111111111111111111111111111111111111111111111111
+>>> i64.bit_length()
+64
+>>> i64
+18446744073709551615
+```
+
+
+## Umwandlung von 64-bit in 16-bit<!-- .slide: data-background-image="imgs/03/ariane5.gif"-->
+* Ariane 5 Explosion [<i class="fa fa-info-circle" aria-hidden="true" title="Info"></i>](http://homepages.inf.ed.ac.uk/perdita/Book/ariane5rep.html) [<i class="fa fa-youtube-square" aria-hidden="true"></i>](https://www.youtube.com/watch?v=PK_yguLapgA)
+
+
+
+# Bitoperatoren
+
+
+## Bitoperatoren<!-- .slide: style="font-size:0.8em" -->
+Operatoren für Binärdarstellung
+
+| Operator    |  Zuweisung  |  Ergebnis  |
+|  ---        |     ----    |   ----     |
+| ~x          |              |  bitweises Komplement <br/> (Einerkomplement)  (= -x-1) |
+| ~x+1        |              |  Zweierkomplement  (= -x)  |
+| x & y       |   x &= y     |  bitweises UND (AND) |
+| x &#124; y  |   x &#124;= y |  bitweises ODER (OR) |
+| x ^ y       |   x ^= y      |  bitweises ausschließendes ODER (XOR) |
+| x << n      |   x <<= n    |  shiften von x um n Bit nach links  |
+| x >> n      |   x >>= n    |  shiften von x um n Bit nach rechts |
+
+
+## Bitoperatoren
+```python
+>>> a = 0b1001
+>>> b = 0b0110
+>>> bin(a | b)
+'0b1111'
+>>> bin(a & b)
+'0b0'
+>>> bin(a ^ b)
+'0b1111'
+>>> bin(~a)
+'-0b1010'
+>>> bin(~a & b)
+'0b110'
+```
+
+
+## Bitoperatoren
+```python
+>>> a = 0b1001
+>>> b = 0b0110
+>>> b >>= 1
+>>> b
+3
+>>> bin(b)
+'0b11'
+>>> bin(a ^ b)
+'0b1010'
+>>> a << 2
+36
+>>> bin(a << 2)
+'0b100100'
+```
+
+
+## Bitoperatoren in der Praxis
+### Demo
+
+
 # Fragen?
-
-
-## Nächstes Mal
-2016-11-09 16:00

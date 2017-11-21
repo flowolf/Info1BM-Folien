@@ -1,427 +1,306 @@
 # 706.088 Informatik 1
 
-### Teilgebiete der Informatik
 
+### Tupel, Listen,...; String Slicing,...; List Comprehensions, lambda functions
 
 
 # Wiederholung
 
-* Funktionen
+
 * Geschichte:
-  * Mechanische Rechenmaschinen
-  * Elektronische Rechenmaschinen
-* Aufbau eines Computers
-* Moore's Law
+  * Mechanische, Elektronische Rechenmaschinen
 
 
-# Relais - Elektronenröhre - Transistor
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Schickardmaschine.jpg#/media/File:Schickardmaschine.jpg"><img src="imgs/03/Schickardmaschine.jpg" alt="Schickardmaschine.jpg"></a><br/>Schickard'sche Rechenmaschine (1623 n. Chr)
+<br/>By <a href="https://de.wikipedia.org/wiki/User:Klaeren" class="extiw" title="de:User:Klaeren">Herbert Klaeren</a> - Transferred from <a class="external autonumber" href="http://de.wikipedia.org/w/index.php?title=Datei:Schickardmaschine.jpg">[1]</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=8159979">Link</a></p>
 
 
-## Relais
-* Mechanischer Schalter
-  * Probleme:
-    * Umschalten dauert einige Sekundenbruchteile
-    * Benötigt viel Platz
-    * Taktfrequenz sehr beschränkt
-    * Mechanische Abnutzung
+<p class="wikipedia"><a href="https://commons.wikimedia.org/wiki/File:Hollerith_Punched_Card.jpg#/media/File:Hollerith_Punched_Card.jpg"><img alt="Hollerith Punched Card.jpg" src="imgs/03/Hollerith_Punched_Card.jpg" height="287" width="640"></a><br/>
+Lochkarte <br/>
+By <span lang="en">Unknown</span><a href="//www.wikidata.org/wiki/Q4233718" title="wikidata:Q4233718"></a> - Library of Congress <a rel="nofollow" class="external free" href="http://memory.loc.gov/mss/mcc/023/0008.jpg">http://memory.loc.gov/mss/mcc/023/0008.jpg</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=30538485">https://commons.wikimedia.org/w/index.php?curid=30538485</a></p>
 
 
-## Relais
-<p class=wikipedia style="text-align:left;position: relative;left:-5%;"><a href="https://commons.wikimedia.org/wiki/File:Relais_Animation.gif#/media/File:Relais_Animation.gif"><img alt="Relais Animation.gif" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Relais_Animation.gif"></a><br>Von <a href="https://de.wikipedia.org/wiki/User:Quark48" class="extiw" title="de:User:Quark48">Stefan Riepl</a> in der <a href="https://de.wikipedia.org/wiki/" class="extiw" title="de:">Wikipedia auf Deutsch</a> - <span class="int-own-work" lang="de">Eigenes Werk</span>, <a title="Creative Commons Attribution-Share Alike 2.0 de" href="http://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10663175">https://commons.wikimedia.org/w/index.php?curid=10663175</a></p>
-<p style="text-align: right; position: absolute; left: 60%; width: 40%; top: 35%;">
-Spule wird unter Strom gesetzt,
-Magnetfeld zieht Anker,
-Arbeitskontakte werden geschlossen,
-Strom kann fließen
-</p>
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG#/media/File:Z3_Deutsches_Museum.JPG"><img alt="Z3 Deutsches Museum.JPG" src="imgs/03/Z3_Deutsches_Museum.JPG" ></a><br>
+Z3 im Deutschen Museum<br/>Von <a href="https://de.wikipedia.org/wiki/User:Venusianer" class="extiw" title="de:User:Venusianer">Venusianer</a> aus der <a href="https://de.wikipedia.org/wiki/" class="extiw" title="de:">deutschsprachigen Wikipedia</a>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=3632073">https://commons.wikimedia.org/w/index.php?curid=3632073</a></p>
 
 
-# Elektronenröhre<!-- .element: class="dark shadow" -->
-<!-- .slide: data-background-image="imgs/04/valve-840091.jpg"-->
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:H96566k.jpg#/media/File:H96566k.jpg"><img alt="H96566k.jpg" src="imgs/03/H96566k.jpg"></a><br>By Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988. - U.S. Naval Historical Center Online Library Photograph <a rel="nofollow" class="external text" href="http://www.history.navy.mil/photos/images/h96000/h96566kc.htm">NH 96566-KN</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=165211">https://commons.wikimedia.org/w/index.php?curid=165211</a><br/>
+ </p>
 
 
-## Elektronenröhre
-* ist auch Schalter
-* 1000 mal schneller als Relais
-* Probleme:
-  * benötigt viel Strom
-  * Lebensdauer gering
-  * Programmierer für ENIAC waren eher Mechaniker
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Eniac.jpg#/media/File:Eniac.jpg"><img alt="Eniac.jpg" src="imgs/03/Eniac.jpg"></a><br>Eniac</br>Von <span xml:lang="de" lang="de">Unbekannt</span><a href="//www.wikidata.org/wiki/Q4233718" title="wikidata:Q4233718"></a> - <a rel="nofollow" class="external text" href="http://ftp.arl.mil/ftp/historic-computers">U.S. Army Photo</a>, Gemeinfrei, <a href="https://commons.wikimedia.org/w/index.php?curid=55124">https://commons.wikimedia.org/w/index.php?curid=55124</a></p>
 
 
-## Elektronenröhre
-<p class=wikipedia  style="text-align:left;position: relative;left:0em;"><a href="https://commons.wikimedia.org/wiki/File:Triode-dt-text.svg#/media/File:Triode-dt-text.svg"><img alt="Triode-dt-text.svg" src="imgs/04/Triode-dt-text.svg"></a><br>Von <a href="//commons.wikimedia.org/w/index.php?title=User:Svjo&amp;action=edit&amp;redlink=1" class="new" title="User:Svjo (page does not exist)">Svjo</a>; German translation: Wdwd - <a href="//commons.wikimedia.org/wiki/File:Triode-english-text.svg" title="File:Triode-english-text.svg">File:Triode-english-text.svg</a>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=50578519">https://commons.wikimedia.org/w/index.php?curid=50578519</a></p>
-<div style="text-align: left; position: absolute; left: 50%; width: 50%; top: 20%;">
-Stromführende Kathode, Stromaufnehmende Anode, Spannungsgefälle:
-Elektronen wandern von Kathode zu Anode, Strom fließt.
-Ist Gitter unter Strom werden Elektronen abgestoßen, Stromfluss stoppt.
-</div>
+<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Mail%C3%BCfterl_Wien.jpg#/media/File:Mail%C3%BCfterl_Wien.jpg"><img src="imgs/04/1200px-Mail%C3%BCfterl_Wien.jpg" alt="Mailüfterl Wien.jpg"></a><br/>Mailüfterl, techn. Museum Wien;<br/>Von Dr. Bernd Gross - <span class="int-own-work" lang="de">Eigenes Werk</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC-BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=46982699">Link</a></p>
 
 
-## Transistor
-![Bipolar Transistor](imgs/04/transistor-39875.svg)<!-- .element: style="position:absolute; height:9em; float: right; top: 10%; right: -0%;" -->
-* Kleiner Strom zwischen **B** asis und **E** mitter <br/>
-schaltet großen Strom zwischen <br/> **C** ollektor und Emitter
-* Basis ist im Sperrbetrieb
-  * kein Strom fließt
-  * Kollektor wartet auf Strom
-* Wenn Spannung an Basis anliegt schaltet der Transistor
-  * Strom fließt zwischen Collector und Emitter
-  * Transistor leitet
+# Zahlensysteme
+Basis: 10, 2 (`0b`), 8 (`0o`), 16 (`0x`)
 
+Python default: 10
+```python
+int(str(100),2)
+```
+```python
+4
+```
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
-## Transistor
-<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Transistor_animation.gif#/media/File:Transistor_animation.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Transistor_animation.gif" alt="Transistor animation.gif"></a><br>Von Stefan Riepl (<a href="https://de.wikipedia.org/wiki/Benutzer:Quark48" class="extiw" title="de:Benutzer:Quark48">Quark48</a> 21:02, 2. Dez. 2007 (CET)) - <span class="int-own-work" lang="de">Eigenes Werk</span> (<span lang="de">Originaltext: selbst erstellt</span>), <a href="http://creativecommons.org/licenses/by-sa/2.0/de/deed.en" title="Creative Commons Attribution-Share Alike 2.0 de">CC BY-SA 2.0 de</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=12557861">Link</a></p>
 
+```txt
+>>> help(int)
+int(x=0) -> integer
+int(x, base=10) -> integer
 
-## Moore's Law
-<p class="wikipedia"><a href="https://commons.wikimedia.org/wiki/File:Transistor_Count_and_Moore%27s_Law_-_2011.svg#/media/File:Transistor_Count_and_Moore%27s_Law_-_2011.svg"><img alt="Transistor Count and Moore's Law - 2011.svg" src="https://upload.wikimedia.org/wikipedia/commons/0/00/Transistor_Count_and_Moore%27s_Law_-_2011.svg"></a><br>By <a href="//commons.wikimedia.org/wiki/User:Wgsimon" title="User:Wgsimon">Wgsimon</a> - <span class="int-own-work" lang="en">Own work</span>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=15193542">https://commons.wikimedia.org/w/index.php?curid=15193542</a></p>
+Convert a number or string to an integer, or return 0 if no
+arguments are given.  If x is a number, return x.__int__().  
+For floating point numbers, this truncates towards zero.
 
+If x is not a number or if base is given, then x must be a
+string, bytes, or bytearray instance representing an integer
+literal in the given base.  The literal can be preceded by
+'+' or '-' and be surrounded by whitespace.  The base
+defaults to 10. Valid bases are 0 and 2-36. Base 0 means to
+interpret the base from the string as an integer literal.
+>>> int('0b100', base=0)
+4
+```
 
 
-# Teilgebiete der Informatik
+```python
+int(str(0b100),0)
+```
+```python
+4
+```
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
-## Teilgebiete der Informatik
-Die Informatik lässt sich in folgende Teilgebiete gliedern:
-* Theoretische Informatik
-* Technische Informatik
-* Praktische Informatik
-* Angewandte Informatik
-* Interdisziplinäre Informatik
 
+## Bitoperatoren
+```python
+def ip_to_int(ip):
+    '''converts classic IP representation to int IP'''
+    ip_parts = []
+    for element in ip.split('.'):
+      ip_parts.append( int(element) )
+    int_ip = ip_parts[0] << 24
+    int_ip += ip_parts[1] << 16
+    int_ip += ip_parts[2] << 8
+    int_ip += ip_parts[3]
+    return int_ip
+```
 
 
-## Theoretische Informatik
-Beschäftigt sich mit (theoretischen) Grundlagenfragen der Informatik
-über formale Sprachen wie
-* Berechenbarkeitstheorie
-* Komplexitätstheorie
-* Logik
-* Graphentheorie
-* Kryptologie
+```python
+def convert_ip(ip):
+    classic_ip = [None]*4
+    classic_ip[0] = (ip & (255 << 24)) >> 24
+    classic_ip[1] = (ip & (255 << 16)) >> 16
+    classic_ip[2] = (ip & (255 << 8)) >> 8
+    classic_ip[3] = (ip & (255))
+    str_ip = []
+    for element in classic_ip:
+      str_ip.append( str(element) )
+    return ".".join(str_ip)
+```
 
 
-## Berechenbarkeitstheorie
-Prinzip: Welche Probleme sind mittels einer Maschine
-lösbar?
+```python
+def is_same_subnet(ip1, ip2, sub=subnet_24):
+    '''returns True if ip1 and ip2 are on the same subnet'''
+    if (ip1 & sub) == (ip2 & sub):
+        return True
+    return False
 
+def device_number(ip, sub=subnet_24):
+    '''returns address of device on the subnet'''
+    return ((ip & sub) ^ ip)
+```
 
-Ein Problem gilt als entscheidbar, wenn es durch einen
-Algorithmus gelöst werden kann.
-
-* Beispiel:
-  * Aussage der Prädikatenlogik erster Stufe
-  > ∀x : x ≤ y
-* Alonzo Church und Alan Turing führten den Beweis,
-dass diese Beispiele nicht automatisch gelöst werden
-können.
-
-
-## Komplexitätstheorie
-Befasst sich mit der Klassifikation der Menge aller
-algorithmisch behandelbaren Problemen.
-* Laufzeit
-*  Speicherbedarf
-
-Verschiedene “Schwierigkeitsstufen”
-*  Konstant, linear, quadratisch, polynomial
-
-
-## Komplexitätstheorie
-P-NP Problem
-*  P: Praktisch lösbar
-*  NP: Praktisch (vermutlich) nicht lösbar
-  *  Lösungen basieren auf **nichtdeterministischem** Modell
-  *  Probleme in NP wachsen stärker als polynomiell mit ihrem Input (=NP-Vollständig)
-
-
-## Automaten und formale Sprachen
-Automaten stellen ein abstraktes Modell <br/>
-eines Computers dar
-* Verhalten sich gemäß bestimmter Regeln
-* Regeln sind in formalen Sprachen definiert
-* Werden verwendet um gewisse Eigenschaften von
-Algorithmen zu testen und zu beweisen.
-
-
-## Logik
-“Lehre des vernünftigen Schlussfolgerns”
-* **Formale Logik**: Untersucht Aussagen (nicht den Inhalt) auf
-ihre Gültigkeit.
-* **Aussagenlogik**
-  * Befasst sich mit Aussagen (Atomen mit Richtig/Falsch zuweisung)
-und deren Verknüpfung (Junktoren)
-* **Prädikatenlogik**
-  *  Erlaubt die Darstellung der inneren Struktur von Sätzen über
-Prädikate (über Termen, Funktoren, Prädikatoren, Quantoren).
-
-
-
-## Kryptologie
-Die Wissenschaft der Informationssicherheit.
-* Digitale Signaturen
-* Identifikationsprotokolle
-* Geheimnisteilung
-* **Symmetrische** Kryptosysteme
-  * DES, AES Verschlüsselungen
-* **Asymmetrische** Kryptosysteme
-  * PGP, RSA Verschlüsselungen
-    * Private Key, Public Key
-
-
-### Symmetrische Kryptosysteme
-ein Schlüssel für Ver- und Ent-Schlüsselung
-* Beispiele:
-  * ROT13, 'Caesar cipher'<!-- .element: class="fragment" data-fragment-index="1" --> <i class="twa twa-open-lock" alt="unsicher"></i> <i class="twa twa-warning"></i>
-  * DES <!-- .element: class="fragment" data-fragment-index="2" -->  <i class="twa twa-open-lock" alt="unsicher"></i><i class="twa twa-warning"></i>
-  * Triple-DES <!-- .element: class="fragment" data-fragment-index="3" -->  <i class="twa twa-open-lock" alt="unsicher"></i><i class="twa twa-warning"></i>
-  * AES<!-- .element: class="fragment" data-fragment-index="4" --> <i class="twa twa-lock"></i>
-
-
-## Live Coding
-Funktionen um 'Caesar cipher' automatisch zu knacken.
-[Code](bsp/04/brutus.html)
-
-
-### Asymmetrische Kryptosysteme (1/2)
-Bestehend aus 2 Schlüsseln
-* Public Key
-  * Öffentlich zugänglicher Schlüssel
-  * Ergänzt mathematische Operationen des Private Key.
-  * Verwendet zum **Verschlüsseln** von Nachrichten an
-Eigentümer des Private Key
-
-
-### Asymmetrische Kryptosysteme (2/2)
-* Private Key
-  * Zum **Signieren** von Nachrichten
-  * Signatur: um Urheberschaft und Integrität zu prüfen
-  * Zum **Entschlüsseln** von verschlüsselten Nachrichten (zum zugehörigen Public Key)
-
-
-## Graphentheorie
-[![graph](imgs/04/Graph_betweenness.svg)](https://upload.wikimedia.org/wikipedia/commons/6/60/Graph_betweenness.svg)<!-- .element: style="float:left; left:0em;height:10em; width:auto" -->
-Analysiert die Eigenschaften von Graphen und ihre
-Verbindungen zueinander.
-* Social Network Analysis
-* Verkehrsnetze
-* ...
-
-
-
-## Technische Informatik
-Beschäftigt sich mit der Hardware der Informatik zur Lösung verschiedenster
-Anforderungen wie
-* Echtzeitsysteme
-* Eingebettete Systeme
-* Mikroprozessoren
-* Rechnerarchitektur
-* Rechnerkommunikation
-
-
-### Echtzeitsysteme
-Computer oder Systeme die in Echtzeit gewisse Werte
-überwachen/berechnen und bei Bedarf reagieren
-müssen.
-* Temperaturüberwachung
-* Eingabe in Computer-Terminals
-* Airbag-Steuerung und
-* ABS für Autos
-
-
-### Eingebettete Systeme
-Sind Computer, die in einen technischen Kontext
-eingebunden sind und im Hintergrund Arbeiten
-übernimmt.
-* Blu-Ray Player
-* Fernseher
-* Kühlschrank
-* Mobiltelefon
-* Board-Computer im Auto
-* ... Kleinstcomputer und ICs
-
-
-### Rechnerarchitektur & Mikroprozessoren
-Design und Organisation von Rechnern
-* Ziel: Erstellung eines Bauplanes für einen
-Computer
-  * Architektur des Prozessors
-  * Design der Hauptplatine
-  * Verbund von Prozessor mit Arbeitsspeicher (BUS-
-System)
-  * Entwicklung von Speicherchips, Festplatten,
-Bildschirmen etc.
-
-
-### Rechnerkommunikation
-Beschäftigt sich mit dem Datenaustausch zwischen
-verschiedenen Computern.
-Ein Rechnernetz stellt den Zusammenschluss mehrerer
-Computer (oder Sensoren/Agenten/Aktoren) dar.
-* Kommunikation über bekannte Protokolle
-* Aufgabe: Software und Hardware für effizienten
-Datenaustausch erstellen.
-  * Aufbau des Netzes
-  * Verwendete Protokolle
-
-
-
-## Praktische Informatik
-  Beschäftigt sich mit konkreten und praktischen Problemen der Informatik
-  wie
-  * Programmiersprachen & Softwareentwicklungsprozess
-  * Algorithmen
-    * Suchen und
-    * Sortieren von Daten
-  * Datenstrukturen
-  * Betriebssysteme
-  * Datenbanken
-
-
-### Programmiersprachen
-Entwicklung von Programmiersprachen die
-Menschen helfen dem Computer Anweisungen zu
-geben.
-* Compiler oder Interpreter übersetzen ein Programm in
-Maschinensprache.
-* Jede Programmiersprache hat eigene Compiler oder
-Interpreter.
-* Große Menge an Programmiersprachen mit vielen
-Unterschieden untereinander vorhanden (C, C++, Python,
-Ruby, Java etc.)
-
-
-### Softwareentwicklungsprozess
-<p class=wikipedia><a href="https://commons.wikimedia.org/wiki/File:Waterfall_model-de.svg#/media/File:Waterfall_model-de.svg"><img alt="Waterfall model-de.svg" src="imgs/04/1200px-Waterfall_model-de.svg.png"></a><br>Von Paul Hoadley, Paul Smith and Shmuel Csaba Otto Traian, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=29119277">https://commons.wikimedia.org/w/index.php?curid=29119277</a></p>
-
-
-### Algorithmen
-Ein Algorithmus beschreibt den Lösungsweg für ein
-Problem für (z.B.)
-* Sortieren von Daten
-* Suchen von Daten
-
-Verschiedene Algorithmen arbeiten unterschiedlich
-effizient und benötigen unterschiedlich viele
-Ressourcen.
-* Viel Speicher, kurze Laufzeit vs.
-* Längere Laufzeit mit wenig Speicherbedarf
-
-
-### Datenstrukturen
-Legen fest, wie gewisse Daten gespeichert und darauf
-zugegriffen werden kann.
-* Beispiel: Stack (Stapelspeicher)
-* LIFO Prinzip
-  * Last In (Letztes drauf)
-  * First Out (Erstes weg)
-* Komplexe Datenstrukturen
-  * Bäume
-  * Graphen
-
-
-### Betriebssystem
-Ermöglicht das Verwenden des Computers
-* Verwaltet die Betriebsmittel (Hardware) wie
-Arbeitsspeicher, CPU, Ein-/Ausgabegeräte etc.
-* Management und Strategien für:
-  * Multiprocessing
-  * Arbeitsspeicher-Verwaltung
-  * Ein-/Ausgabegeräte Steuerung
-  * Prozess-Abläufe (Wer darf wann, was und wie lange machen!)
-
-
-### Datenbanken
-Elektronische Sammlung von Daten, die aus
-Benutzersicht zusammen gehört, strukturiert gespeichert.
-* Kontodatenbank einer Bank
-* Personaldatenbank einer Firma
-* Aufgaben: Schnell und zuverlässig auf große
-(zusammengehörige) Datensätze zugreifen.
-* z.B. auf alle Kunden die ein Konto nach dem
-01.01.2016 bei einer bestimmten Filiale erstellt
-haben.
-
-
-
-## Angewandte Informatik
-  Die Angewandte Informatik beschäftigt sich mit der Erforschung und
-  Entwicklung von Anwendungen von Rechnern wie
-* Grafische Datenverarbeitung
-* Datenbanksysteme
-* Numerik
-* Künstliche Intelligenz
-* Wirtschaftliche, kommerzielle Anwendungen
-* Technisch-wissenschaftliche Anwendungen
-
-
-### Wirtschaftliche, kommerzielle Anwendungen
-Programme als Produkte
-* Buchhaltung
-* Rechnungswesen
-* Office-Suiten
-* Terminverwaltung
-* etc.
-
-
-### Technisch-wissenschaftliche Anwendungen
-Software für die Durchführung von
-Simulationen
-* Ampelanlagen und  Flugüberwachung
-
-Anwendungen für numerische Probleme:
-* Effiziente Repräsentation von Daten
-
-
-
-## Interdisziplinäre Informatik
-Die Anwendung von erprobten Konzepten der Informatik
-auf Problemstellungen anderer Disziplinen
-* Grafische Datenverarbeitung
-* Biomedizinische Informatik
-* Computerlinguistik
-
-
-### Grafische Datenverarbeitung
-Befasst sich mit der Erstellung, Bearbeitung und Erfassung
-von Bildern am Computer.
-* Computer Visualisierung
-  *  Hilft dem Computer “zu sehen”
-<!--  " Visualisierung von Daten -->
-  * Erkennen von Mustern in Videos etc.
-* Computer Grafik
-  * Erstellung und Bearbeitung von Bildern am Computer
-(= Computergrafiken)
-  * Schattierungen Berechnen, Animationen
-
-
-### Biomedizinische Informatik
-Medizinische Problemstellungen mit <br/>Hilfe der
-Informatik zu lösen
-* Entschlüsselung von DNA
-* Früherkennung von Krankheiten
-* Ausbreitung von Krankheiten über Epidemie-Modelle
-(Ebola)
-* Vorhersage und Beratung der WHO über Informatiker
-
-
-### Computerlinguistik
-Untersucht ob und wie die natürliche Sprache mit dem
-Computer verarbeitet werden kann <br/>(Natural
-Language Processing).
-* Wichtige Worte aus Texten extrahieren (z.B. Orte, Namen,
-Datum)
-* Automatisches Übersetzen von Texten
-* Automatische Zusammenfassungen generieren
-* Kontexte erkennen und zusätzliche Informationen
-bereitstellen
-* Spracherkennung, Sprachsynthese
 
+## Sequentielle Datentypen
+`list, tuple, str, byte, bytearray`
+
+
+# Listen
+**`list`**: listet beliebige Instanzen; veränderlich
+
+
+# Tupel
+**`tuple`**: listet beliebige Instanzen; **unveränderlich**
+
+
+# String
+**`str`**: Text, Sequenz von Buchstaben,<br/>
+auch Sonderzeichen; **unveränderlich**
+
+
+# Bytes
+**`bytes`**: Binärdaten, Sequenz von Bytes (8-Bit); **unveränderlich**
+
+
+# Bytearray
+**`bytearray`**: Binärdaten, Sequenz von Bytes (8-Bit); veränderlich
+
+
+## Slicing
+```python
+s = "This is a test string"
+s[0] # T
+s[8] # a
+s[0:3] # Thi
+s[8:14] # a test
+s[0:14:3] # Tss s
+```
+
+
+## Slicing
+```python
+s = "This is a test string"
+s[-2] # n
+s[-2:] # ng
+s[-11::3] # tttn
+s[:-5:] # This is a test s
+```
+
+
+## Slicing
+```python
+s = "This is a test string"
+s[::-1] # gnirts tset a si sihT
+s[:-5:-1] # gnir
+s[-16::-1] # i sihT
+s[-10::-2] # e  ish
+s[-5:-12:-2] # t st
+s[-13:12] # a te
+```
+
+
+
+## List Comprehensions
+
+Erstellen einer neuen Liste, aus bestehender Liste, nach bestimmten Regeln.
+
+
+## List Comprehensions
+```python
+my_list = [1,2,3,4,5,6,7,8,9]
+[x**2 for x in my_list]
+```
+```python
+[1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+## List Comprehensions
+```python
+my_list = [1,2,3,4,5,6,7,8,9]
+[x**2 for x in my_list if x % 2 == 0]
+```
+```python
+[4, 16, 36, 64]
+```
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+```python
+def ip_to_int(ip):
+    '''converts classic IP representation to int IP'''
+    # ip_parts = []
+    # for element in ip.split('.'):
+    #   ip_parts.append(int(element))
+    ip_parts = [int(x) for x in ip.split('.')]
+
+    int_ip = ip_parts[0] << 24
+    int_ip += ip_parts[1] << 16
+    int_ip += ip_parts[2] << 8
+    int_ip += ip_parts[3]
+    return int_ip
+```
+
+
+```python
+def convert_ip(ip):
+    classic_ip = [None]*4
+    classic_ip[0] = (ip & (255 << 24)) >> 24
+    classic_ip[1] = (ip & (255 << 16)) >> 16
+    classic_ip[2] = (ip & (255 << 8)) >> 8
+    classic_ip[3] = (ip & (255))
+    # str_ip = []
+    # for element in classic_ip:
+    #   str_ip.append( str(element) )
+    str_ip = [str(x) for x in classic_ip]
+
+    return ".".join(str_ip)
+```
+
+
+```python
+my_list1 = ["A", "B", "C"]
+my_list2 = ["D", "E", "F"]
+[(a,b) for a in my_list1 for b in my_list2 ]
+```
+```python
+[('A', 'D'), ('A', 'E'), ('A', 'F'), ('B', 'D'),
+ ('B', 'E'), ('B', 'F'), ('C', 'D'), ('C', 'E'),
+ ('C', 'F')]
+ ```
+ <!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+```python
+my_list1 = ["A", "B", "C"]
+my_list2 = ["D", "E", "F"]
+my_list3 = ["G", "H", "I"]
+[(a,b,c) for a in my_list1 for b in my_list2 for c in my_list3]
+```
+```python
+[('A', 'D', 'G'), ('A', 'D', 'H'), ('A', 'D', 'I'), ('A', 'E', 'G'),
+ ('A', 'E', 'H'), ('A', 'E', 'I'), ('A', 'F', 'G'), ('A', 'F', 'H'),
+ ('A', 'F', 'I'), ('B', 'D', 'G'), ('B', 'D', 'H'), ('B', 'D', 'I'),
+ ('B', 'E', 'G'), ('B', 'E', 'H'), ('B', 'E', 'I'), ('B', 'F', 'G'),
+ ('B', 'F', 'H'), ('B', 'F', 'I'), ('C', 'D', 'G'), ('C', 'D', 'H'),
+ ('C', 'D', 'I'), ('C', 'E', 'G'), ('C', 'E', 'H'), ('C', 'E', 'I'),
+ ('C', 'F', 'G'), ('C', 'F', 'H'), ('C', 'F', 'I')]
+ ```
+ <!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+
+<a href="bsp/04/poker.py"><i class="twa twa-heart-suit twa-2x"></i>
+<i class="twa twa-spade-suit twa-2x"></i>
+<i class="twa twa-diamond-suit twa-2x"></i>
+<i class="twa twa-club-suit twa-2x"></i></a>
+
+
+
+## Lambda Funktionen
+### Anonyme Funktionen
+
+- müssen nicht benannt werden
+```python
+lambda x: x**2
+sq = lambda x: x**2
+sq(3) # 9
+(lambda x: x**2)(3) # 9
+```
+
+
+```python
+def convert_ip(ip):
+    classic_ip = [None]*4
+    classic_ip[0] = (ip & (255 << 24)) >> 24
+    classic_ip[1] = (ip & (255 << 16)) >> 16
+    classic_ip[2] = (ip & (255 << 8)) >> 8
+    classic_ip[3] = (ip & (255))
+
+    # str_ip = [str(x) for x in classic_ip]
+    str_ip = list( map(lambda x: str(x), classic_ip) )
+
+    return ".".join(str_ip)
+```
 
 
 # Fragen?
-
-
-## Nächstes Mal
-2016-11-16 16:00
