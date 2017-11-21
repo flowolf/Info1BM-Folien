@@ -388,12 +388,13 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 * Debuggers
   * <a href="https://docs.python.org/3/library/pdb.html"> pdb </a> (standard library debugger, part of all Python installations)
   * <a href="https://pypi.python.org/pypi/pudb"> pudb </a> (visual debugger)
-
 <p><img src="https://tiker.net/pub/pudb-screenshot.png"/></p>
+
 
 ## Debugging in Python
 * IDEs with Debuggers 
   * PyCharm IDE 
+  * ... <a href="https://wiki.python.org/moin/PythonDebuggingTools">many more</a>
 
 
 ## Fehlertypen 
