@@ -1,6 +1,6 @@
 # 706.088 Informatik 1
 Softwareentwicklungsprozesse
-  * DI Johanna Pirker
+  * DI DR Johanna Pirker
 
 
 * Buchempfehlung
@@ -382,6 +382,14 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
  * Haltepunkte setzen (Einzelschritte überprüfen)
  * Daten untersuchen (Daten in flüchtigem Speicher)
  * Speicher modifizieren 
+
+
+## Debugging in Python
+* Debuggers
+  * <a href="https://docs.python.org/3/library/pdb.html"> pdb </a> (standard library debugger, part of all Python installations)
+  * pudb (visual debugger)
+* IDEs with Debuggers 
+  * PyCharm IDE 
 
 
 ## Fehlertypen 
