@@ -387,7 +387,11 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 ## Debugging in Python
 * Debuggers
   * <a href="https://docs.python.org/3/library/pdb.html"> pdb </a> (standard library debugger, part of all Python installations)
-  * pudb (visual debugger)
+  * <a href="https://pypi.python.org/pypi/pudb"> pudb </a> (visual debugger)
+
+<p><img src="https://tiker.net/pub/pudb-screenshot.png"/></p>
+
+## Debugging in Python
 * IDEs with Debuggers 
   * PyCharm IDE 
 
