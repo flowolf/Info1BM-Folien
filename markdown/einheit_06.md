@@ -338,7 +338,7 @@ cleaning up
 * Setzt Bedingung, die, wenn falsch, zu einer Exception führt.
 * Nur zur Entwicklung sinnvoll.
 * Nur mit &#95;&#95;debug&#95;&#95;``` == True``` aktiv
-* Wird mit ```python3 -O``` deaktiviert (&#95;&#95;debug&#95;&#95; = False)
+* Wird mit ```python3 -O``` deaktiviert (&#95;&#95;debug&#95;&#95;``` = False```)
 
 
 ## assert

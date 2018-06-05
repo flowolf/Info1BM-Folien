@@ -102,11 +102,11 @@ s[-5:-12:-2]
 my_list = [0,1,2,3,4,5,6,7]
 for el in my_list:
     el**2
-    
+
 for el in my_list:
     print(el**2)
-    
-    
+
+
 [x**2 for x in my_list]
 squares = [x**2 for x in my_list]
 squares
@@ -163,7 +163,7 @@ player1
 _ = deck[0]
 deck = deck[1:]
 # turn
-table += [deck[0]] 
+table += [deck[0]]
 del deck[0]
 len(deck)
 table
@@ -192,7 +192,7 @@ sq(3)
 get_ipython().run_line_magic('pinfo', 'sorted')
 s
 get_ipython().run_line_magic('pinfo', 's.sort')
-a 
+a
 a.sort()
 get_ipython().run_line_magic('pinfo', 'a.sort')
 get_ipython().run_line_magic('pinfo', 'sorted')
@@ -237,6 +237,6 @@ a
 # https://de.wikipedia.org/wiki/Spielsprache#B-Sprache
 s = "Das ist ein Test String"
 "".join([(lambda x: x if x not in "aeiouAEIOU" else x+"b"+x.lower())(l) for l in s])
-s = "Alle Kinder sind da" 
+s = "Alle Kinder sind da"
 "".join([(lambda x: x if x not in "aeiouAEIOU" else x+"b"+x.lower())(l) for l in s])
 get_ipython().run_line_magic('save', 'live ~0/')
