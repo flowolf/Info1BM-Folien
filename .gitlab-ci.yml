@@ -3,10 +3,10 @@ image: alpine:latest
 pages:
   stage: deploy
   script:
-  - echo 'Nothing to do...'
+  - rm -r .git
   artifacts:
     paths:
-    - markdown
+    - .
   only:
   - master
 
