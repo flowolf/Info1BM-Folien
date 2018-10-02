@@ -5,7 +5,7 @@ Weitere Informationen zur LV gibt es [hier](https://palme.iicm.tugraz.at/wiki/In
 
 ## Folien
 
-Der PDF export der Folien kann im Ordner 'export' gefunden werden.
+Der PDF export der Folien kann im Ordner 'pdf' gefunden werden.
 
 [INDEX](https://flowolf.gitlab.io/Info1BM-Folien)
 
