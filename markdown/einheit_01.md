@@ -98,17 +98,17 @@
 
 |  Datum | Uhrzeit |            | Datum | Uhrzeit |  |
 |:- |:- | -: |
-| 2018-10-03 | 16:00 c.t. |              | 2018-11-21 | 16:00 s.t. |              |
-| 2018-10-10 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2018-11-28 | 16:00 s.t. | |
-| 2018-10-17 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2018-12-05 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> |
-| 2018-10-24 | 16:00 s.t. |              | 2018-12-12 | 16:00 s.t. | |
-| 2018-10-31 | 16:00 s.t. |              | 2019-01-09 | 16:00 s.t. | Ersatztermin\* |
-| 2018-11-07 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2019-01-16 | 16:00 s.t. | Ersatztermin\* |
-| 2018-11-14 | 16:00 s.t. |              | 2019-01-23 | **19:00 s.t.** | **Prüfung** |
-|            |            |              | 2019-01-30 | 16:00 s.t. | Prüfung\* |
+| 2018-10-03 | 16:00 c.t. |              | 2018-11-28 | 16:00 s.t. | |
+| 2018-10-10 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2018-12-05 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true"> |
+| 2018-10-17 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2018-12-12 | 16:00 s.t. | |
+| 2018-10-24 | 16:00 s.t. |              | 2019-01-09 | 16:00 s.t. | VO-Ersatztermin\* |
+| 2018-10-31 | 16:00 s.t. |              | 2019-01-16 | 16:00 s.t. | VO-Ersatztermin\* |
+| 2018-11-07 | 16:00 s.t. | <i class="fa fa-play-circle-o" aria-hidden="true">         | 2019-01-23 | **20:00 s.t.** | **Prüfung** |
+| 2018-11-14 | 16:00 s.t. |              | 2019-01-30 | 16:00 s.t. | Prüfung\* |
+| 2018-11-21 | 16:00 s.t. |              | 2019-02-28 | 10:00 s.t. | Prüfung\*\* |
 
 \* für krankheitsbedingte Ausfälle,
-\*\* Wiederholdungsmöglichkeit (für Antritte vom 2019-01-23)<!-- .element: style="font-size:0.5em;" -->
+\*\* Wiederholdungsmöglichkeit (für Antritte vom Haupttermin)<!-- .element: style="font-size:0.5em;" -->
 
 
 ## Kein Weg zurück
