@@ -46,7 +46,7 @@
   * Prüfung am Ende des Semesters
 * __Übung__ (50%)
   * 3 Programmierabgaben im Laufe des Semesters <br />(0: 0%,
-1: 10%, 2: 15%, 3: 25%)
+1: 5%, 2: 20%, 3: 25%)
   * Einzelarbeit
   * Abgabegespräche
 
@@ -60,7 +60,7 @@
 |  25.5%         |  25.5%    |  51%    |   4  |
 |  26%           |  49%      |  75%    |   3  |
 |  45%           |  39%      |  84%    |   2  |
-* Mögliche Wiederholung der VO-Prüfung Ende Jänner<!-- .element: class="fragment" data-fragment-index="1" -->
+* Mögliche Wiederholung der VO-Prüfung Ende Feber<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 ## Bewertungs-schlüssel
