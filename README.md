@@ -18,3 +18,5 @@ Der PDF export der Folien kann im Ordner 'pdf' gefunden werden.
 [Einheit 04](https://flowolf.gitlab.io/Info1BM-Folien/einheit_04.html)
 
 [Einheit 05](https://flowolf.gitlab.io/Info1BM-Folien/einheit_05.html)
+
+[Einheit 06](https://flowolf.gitlab.io/Info1BM-Folien/einheit_06.html)
