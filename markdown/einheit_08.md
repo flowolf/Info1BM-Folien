@@ -17,7 +17,7 @@ Softwareentwicklungsprozesse
 # Software-entwicklung
 
 
-## Definition Softwareentwicklung 
+## Definition Softwareentwicklung
 * **Software** = Computerprogramm + Dokumentation eventuell entwickelt für einen speziellen Markt
 * **Gute Software** = Funktionalität, Performance, Benutzbarkeit und Wartbarkeit
 
@@ -28,26 +28,26 @@ Softwareentwicklungsprozesse
 
 
 ## Systementwicklung
-* **System Engineering** = beinhaltet zusätzlich auch alle computer-basierten Systeme (Hardware, Sofware, Prozesse) 
+* **System Engineering** = beinhaltet zusätzlich auch alle computer-basierten Systeme (Hardware, Sofware, Prozesse)
 
 
 ## Attribute Guter Software
 * Wartbarkeit
-* Zuverlässigkeit 
+* Zuverlässigkeit
 * Sicherheit
-* Effizienz und Performance 
-* Angemessenheit, Benutzerfreundlichkeit, Kompatibilität, Verständlich 
+* Effizienz und Performance
+* Angemessenheit, Benutzerfreundlichkeit, Kompatibilität, Verständlich
 
 
-## Arten von Anwendungen 
+## Arten von Anwendungen
 * Eigenständige Anwendungen
-* Web-Anwendungen 
+* Web-Anwendungen
 * Embedded Control Systems
-* Batch Processing 
-* Entertainment 
-* Modellierungen und Simulationen 
+* Batch Processing
+* Entertainment
+* Modellierungen und Simulationen
 * Datenerfassung und -sammlung
-* ... 
+* ...
 
 
 
@@ -55,17 +55,17 @@ Softwareentwicklungsprozesse
 
 
 ## Prozess (1/2)
-* **(1) Spezifikation**: 
+* **(1) Spezifikation**:
  Funktionalitäten und Auflagen identifizieren und definieren
-* **(2) Design und Implementierung**: 
- Software, welche den Spezifikationen entspricht wird entwickelt 
+* **(2) Design und Implementierung**:
+ Software, welche den Spezifikationen entspricht wird entwickelt
 
 
 ## Prozess (2/2)
-* **(3) Verifikation & Validierung**: 
+* **(3) Verifikation & Validierung**:
  Die Software wird getestet, ob die den Spezifikationen der Stakeholder (e.g. Kunden) entspricht
-* **(4) Weiterentwicklung**: 
- Anpassung an sich ändernde Kundenwünsche 
+* **(4) Weiterentwicklung**:
+ Anpassung an sich ändernde Kundenwünsche
 
 
 <a href="http://www.sandraandwoo.com/2012/11/19/0430-software-engineering-now-with-cats/" target="_blank"><p class=wikipedia style="text-align:center;width:100%;center:0em;position: relative;"><img src="http://www.sandraandwoo.com/comics/2012-11-19-0430-software-engineering-now-with-cats.png" alt="reality"></p></a>
@@ -82,9 +82,9 @@ Softwareentwicklungsprozesse
 
 ## Vorgehensmodelle
 * Wasserfall Modell (Trennung der Prozesse)
-* Evolutionäre Entwicklung / Iterative Entwicklung 
+* Evolutionäre Entwicklung / Iterative Entwicklung
 * Komponentenbasierte Entwicklung mit Wiederverwertung
-* Agile Softwareentwicklung 
+* Agile Softwareentwicklung
  * Extreme Programming
  * SCRUM
 * ...  
@@ -97,26 +97,26 @@ Softwareentwicklungsprozesse
 ## Wasserfallmodell
 * Lineares Vorgehensmodell
 * Klar definierte Start- und Endpunkte der Phasen
-* Klar definierte Ergebnisse 
+* Klar definierte Ergebnisse
 * Meilensteinsitzungen
 * Lastenheft (Anforderungsspezifikation)
 * Pflichtenheft (Implementierungskonzept, Feature Specification)
 
 
 ## Wasserfallmodell
-* Typische Phasen: 
+* Typische Phasen:
  * (1) Planung, (Resultat: Lastenheft)  
  * (2) Systemdesign- und spezifikation (Resultat: Softwarearchitektur)
  * (3) Implementierung und Modultests (Resultat: Software)
- * (4) Integrationstest 
+ * (4) Integrationstest
  * (5) Auslieferung und Wartung  
 
 
 ## Wasserfallmodell
-* Vorteile: 
+* Vorteile:
  * klar getrennte Phasen
- * definierte Zeitpunkte für Prozessschritte 
-* Nachteile: 
+ * definierte Zeitpunkte für Prozessschritte
+* Nachteile:
  * frühe Festlegung der gesamten Funktionalität notwendig
  * spätere Änderungen kostspielig
 
@@ -130,17 +130,17 @@ Softwareentwicklungsprozesse
 <p class=wikipedia style="text-align:left;width:100%;left:0em;position: relative;"><a target="_blank" href="https://commons.wikimedia.org/wiki/File:Iterative_development_model.svg#/media/File:Iterative_development_model.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Iterative_development_model.svg/1200px-Iterative_development_model.svg.png" alt="Iterative development model.svg"></a><br>Von <a href="//commons.wikimedia.org/wiki/User:Aflafla1" title="User:Aflafla1">Aflafla1</a> - Iterative development model V2.jpg , User:Westerhoff, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=34159246">Link</a></p>
 
 
-## Iterative und Inkrementelle Entwicklung 
-* Anwendung bei kleinen bis mittleren Projekten 
-* Vorteile: 
+## Iterative und Inkrementelle Entwicklung
+* Anwendung bei kleinen bis mittleren Projekten
+* Vorteile:
  * Schrittweise Spezifikation
- * Kosten und Aufwand bei Anforderungsänderung geringer 
+ * Kosten und Aufwand bei Anforderungsänderung geringer
  * Zunehmendes Verständnis des Kunden
  * Schnelleres Deployment von funktionstüchtiger Software an den Kunden (mit Grundfunktionalitäten)
 
 
-## Iterative und Inkrementelle Entwicklung 
-* Nachteile: 
+## Iterative und Inkrementelle Entwicklung
+* Nachteile:
  * Projektfortschritt schwer messbar (Manager benötigen Deliverables um Fortschritt zu messen)
  * Dokumentation muss ständig aktualisiert werden
  * Ohne Refactoring zwischen den Iterationen wird die Systemstruktur kompliziert und zukünftige Änderungen werden teurer
@@ -149,7 +149,7 @@ Softwareentwicklungsprozesse
 ## Live-Beispiel
 * Jetzt zu 2. oder zu 3. "Schere Stein Papier" spielen  
  * Wie gut funktioniert es? Macht es Spass?
- * Eine Regel ändern oder eine neue Regel hinzufügen 
+ * Eine Regel ändern oder eine neue Regel hinzufügen
  * noch einmal spielen
  * Wie gut funktioniert es? Macht es Spass?
 
@@ -159,9 +159,9 @@ Softwareentwicklungsprozesse
 
 
 ## Agile Softwareentwicklung
-* Agilität in der Softwareentwicklung 
+* Agilität in der Softwareentwicklung
  * gesamten Softwareentwicklungsprozess (Extreme Progrogramming) oder Teilbereiche
-* Ziel: Flexibilität 
+* Ziel: Flexibilität
 
 
 ## Agile Manifest (Agile Manifesto)
@@ -178,44 +178,44 @@ Softwareentwicklungsprozesse
 ## Agile Manifest (12 Prinzipien)
 * Kundenzufriedenheit
 * Anforderungsänderungen auch spät willkommen
-* regelmäßige Lieferung funktionierender Software 
+* regelmäßige Lieferung funktionierender Software
 * Tägliche Zusammenarbeit von Fachexperten und Entwicklern während des Projektes
-* Umfeld und Unterstützung für motivierte Individuen 
+* Umfeld und Unterstützung für motivierte Individuen
 * Face-to-face Gespräche als primäre Informationsübertragung
  * <a href="http://agilemanifesto.org/iso/de/principles.html">12 Prinzipien</a>
 
 
 ## Agile Manifest (12 Prinzipien)
 * Fortschrittmaß ist funktionierende Software
-* Gleichmäßiges Tempo auf unbegrenzte Zeit 
+* Gleichmäßiges Tempo auf unbegrenzte Zeit
 * Technische Exzellenz und gutes Design
 * Einfachheit im Fordergrund
-* Selbstorganisiertes Team 
+* Selbstorganisiertes Team
 * Regelmäßige Reflektionen im Team
  * <a href="http://agilemanifesto.org/iso/de/principles.html">12 Prinzipien</a>
 
 
 ## Extreme Programming
 * Agile Methode von Beck (2000)
- * Schrittweise Planung, kurze Iterationen 
- * Simples Design 
+ * Schrittweise Planung, kurze Iterationen
+ * Simples Design
  * Refactoring (ständige Codeverbesserung)
  * Test-First Entwicklung (Unit-Tests zuerst geschrieben)
  * Pair Programming (2 Programmierer pro Computer)
- * “Kunde” bei Entwicklungsteam 
+ * “Kunde” bei Entwicklungsteam
  * Mini-Releases, Ständige Integration (lauffähiges Gesamtsystem)
 
 
-## Extreme Programming 
+## Extreme Programming
 * Änderungskostenkurve in Abhängigkeit vom Zeitpunkt der Änderung
 <p><a href="https://commons.wikimedia.org/wiki/File:Xpkurve.png#/media/File:Xpkurve.png"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Xpkurve.png" alt="Xpkurve.png"></a><br>Von ​<a href="https://de.wikipedia.org/wiki/Main_Page" class="extiw" title="de:Main Page">German Wikipedia</a> Benutzer <a href="https://de.wikipedia.org/wiki/User:GuidoZockoll" class="extiw" title="de:User:GuidoZockoll">GuidoZockoll</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=5068618">Link</a></p>
 
 
 ## Extreme Programming
 * Rollen
- * Product Owner - Verantwortung, setzt Prioritäten 
+ * Product Owner - Verantwortung, setzt Prioritäten
  * Kunde - Auftraggeber
- * Entwickler 
+ * Entwickler
  * (Projektmanager) - Teamführung
  * Benutzer - Nutzer des Produktes
 
@@ -225,58 +225,58 @@ Softwareentwicklungsprozesse
 <p><a href="https://commons.wikimedia.org/wiki/File:Risk-value-priorisierung.png#/media/File:Risk-value-priorisierung.png"><img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Risk-value-priorisierung.png" alt="Risk-value-priorisierung.png"></a><br>Von <a href="https://de.wikipedia.org/wiki/Benutzer:Michael_H%C3%BCttermann" class="extiw" title="de:Benutzer:Michael Hüttermann">Michael Hüttermann</a> - <span class="int-own-work" lang="de" xml:lang="de">Eigenes Werk</span>, Gemeinfrei, <a href="https://commons.wikimedia.org/w/index.php?curid=5068629">Link</a></p>
 
 
-## SCRUM 
+## SCRUM
 * Agiles Projektmanagement
 
 <p class=wikipedia style="text-align:left;width:100%;left:0em;position: relative;"><a target="_blank" href="https://commons.wikimedia.org/wiki/File:Scrum_process-de.svg#/media/File:Scrum_process-de.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Scrum_process-de.svg/1200px-Scrum_process-de.svg.png" alt="Scrum process-de.svg"></a><br>Von <a href="//commons.wikimedia.org/wiki/File:Scrum_process.svg" title="File:Scrum process.svg">Scrum_process.svg</a>: <a href="//commons.wikimedia.org/w/index.php?title=User:Lakeworks&amp;action=edit&amp;redlink=1" class="new" title="User:Lakeworks (page does not exist)">Lakeworks</a>
 derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" title="User:Sebastian Wallroth">Sebastian Wallroth</a> (<a href="//commons.wikimedia.org/wiki/User_talk:Sebastian_Wallroth" title="User talk:Sebastian Wallroth"><span class="signature-talk">talk</span></a>) - <a href="//commons.wikimedia.org/wiki/File:Scrum_process.svg" title="File:Scrum process.svg">Scrum_process.svg</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10772971">Link</a></p>
 
 
-##SCRUM 
+## SCRUM
 * Sprint (2-4 Wochen)
 * Arbeitsabschnitt um bestimmte Funktionalität zu entwickeln
-* Sprint Planning (max. 2 Stunden) 
- * Was wird entwickelt? 
+* Sprint Planning (max. 2 Stunden)
+ * Was wird entwickelt?
  * Wie wird es erledigt?
 
 
- ##SCRUM 
+ ## SCRUM 
 * Product-Backlog: Liste von Aufgaben für das Projekt als Planungsstartpunkt
 * Sprint-Backlog: Detaillierter Plan für nächsten Sprint
 * Selection Phase: Features/Funktionalitäten für Sprint zusammen mit Kunde gewählt
 * Development: mit “Daily Scrum Meetings” / Scrum Master
-* Review (Code Review): Ende von Sprint 
+* Review (Code Review): Ende von Sprint
 
 
-## SCRUM 
-* Vorteile: 
+## SCRUM
+* Vorteile:
  * Produkt ist unterteilt in verschiedene überschaubare und verständliche Teile
  * Hohe Fexibilität
- * unrealisierbare Anforderungen schnell identifiziert 
+ * unrealisierbare Anforderungen schnell identifiziert
  * Transparenz und Vertrauen durch regelmäßige Kommunikation
- * Vertrauen zwischen Kunde und Entwickler, 
- * Kurze Kommunikationswege 
+ * Vertrauen zwischen Kunde und Entwickler,
+ * Kurze Kommunikationswege
 
 
- ## SCRUM 
+ ## SCRUM
 * Nachteile:
- * Gesamtüberblick schwierig 
- * Hoher Kommunikationsaufwand 
+ * Gesamtüberblick schwierig
+ * Hoher Kommunikationsaufwand
  * Zeitverlust bei schlechten Sprintplanungen
  * Schwieriger Umsetzbar bei Großprojekten (Höherer Koordinationsaufwand erfordert)  
 
 
-##Project Success 
+##Project Success
 <p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/Modern%20Resolution.jpg"/></p>
 <a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
 
 
-##Project Success 
+##Project Success
 <p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/Resolution%20by%20Project%20Size.jpg"/></p>
 <a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
 
 
-##Project Success 
+##Project Success
 <p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/1Resolution%20Agile%20Waterfall.jpg"/></p>
 <a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
 
@@ -292,9 +292,9 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 
 
 ## Softwareanforderungen
-* Lastenheft oder Product Backlog 
- * Customer Requirement, Anforderungen beschreiben) 
-* Pflichtenheft -> Design 
+* Lastenheft oder Product Backlog
+ * Customer Requirement, Anforderungen beschreiben)
+* Pflichtenheft -> Design
  * Development Requirement, wie lösen
 
 
@@ -306,7 +306,7 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
  * Benutzbarkeit, Zuverlässigkeit, Effizienz, Änderbarkeit, Wartbarkeit, ..
 
 
-## Anforderungsspezifikation laut IEEE 
+## Anforderungsspezifikation laut IEEE
 * korrekt
 * unzweideutig (eindeutig)
 * vollständig
@@ -331,7 +331,7 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 
 ##  Verifikation & Validierung
 * **Validierung**: “Entwickeln wir das richtige Produkt?”
- * wird den Kundenerwartungen entsprochen? 
+ * wird den Kundenerwartungen entsprochen?
 * **Verifikation**: “Entwickeln wir das Produkt korrekt?”
  * entspricht die Software den Anforderungen?
 
@@ -339,7 +339,7 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 ## Verifikation & Validierung
 *  Software Inspektion
  * Review von Spezifikation, Design und Code
- * Programmcode wird überprüft (Statischer Ansatz) 
+ * Programmcode wird überprüft (Statischer Ansatz)
 * Software Test
  * Programm „läuft“ mit Testdaten (Dynamischer Ansatz)
  * Ausgaben und Laufverhalten wird überprüft
@@ -355,12 +355,12 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 ## Softwareweiterentwicklung
 * Fehlerbehebung
  * Sourcecode-Fehler (geringster Aufwand)
- * Desing-Fehler (mittlerer Aufwand) 
+ * Desing-Fehler (mittlerer Aufwand)
  * Requirement-Fehler (größter Aufwand)
 * Softwareanpassung an
  * diverse Plattformen
  * neue Systemumgebung
-* Funktionsanpassungen u. Erweiterungen (z.B. Gesetzesänderung) 
+* Funktionsanpassungen u. Erweiterungen (z.B. Gesetzesänderung)
 
 
 ## Sonderfall: Legacy Systeme (Altsystem)
@@ -381,7 +381,7 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 * Funktionen
  * Haltepunkte setzen (Einzelschritte überprüfen)
  * Daten untersuchen (Daten in flüchtigem Speicher)
- * Speicher modifizieren 
+ * Speicher modifizieren
 
 
 ## Debugging in Python
@@ -392,24 +392,24 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 
 
 ## Debugging in Python
-* IDEs with Debuggers 
-  * PyCharm IDE 
+* IDEs with Debuggers
+  * PyCharm IDE
   * ... <a href="https://wiki.python.org/moin/PythonDebuggingTools">many more</a>
 
 
-## Automatisiertes Test in Python 
+## Automatisiertes Test in Python
 * tox
-  * <a href="https://tox.readthedocs.io"> Doku </a>, <a href="https://github.com/tox-dev/tox"> Github Projekt </a> 
-  * Tool für standardisiertes, automatisches Testing (Qualitätssicherung) 
+  * <a href="https://tox.readthedocs.io"> Doku </a>, <a href="https://github.com/tox-dev/tox"> Github Projekt </a>
+  * Tool für standardisiertes, automatisches Testing (Qualitätssicherung)
   * Ermöglicht beliebige Tests mit verschiedenen Python-Versionen (in einer eigenen virtuellen Umgebung)
   * Überprüfung von Konformität  
 
 
-## Fehlertypen 
+## Fehlertypen
 * Laufzeitfehler
- * Arten von Fehler, die erst auftregen, während das Programm exekutiert wird 
+ * Arten von Fehler, die erst auftregen, während das Programm exekutiert wird
  * e.g. durch falsche Eingabe
-* Programmierfehler (verhindern das Kompilieren) 
+* Programmierfehler (verhindern das Kompilieren)
  * Lexikalischer Fehler (undefinierte Variablen)
  * Syntaxfehler (fehlende Klammer)  
 
@@ -419,32 +419,32 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 
 ```python
 
- * a = 0 vs a ==0 
+ * a = 0 vs a ==0
 ```
 
 
 ## Fehlertypen
 * Artithmetische Fehler
  * Division durch null
- * Precision (schlechtes Runden, e.g. float to int) 
+ * Precision (schlechtes Runden, e.g. float to int)
  * Arithmetischer Überlauf
 
 32 Bit (Signed) Integer:
 ```python
 
-2.147.483.647 + 1 =  -2.147.483.648 
+2.147.483.647 + 1 =  -2.147.483.648
 
-( 01111111 11111111 11111111 11111111 
-                                 + 1 = 
+( 01111111 11111111 11111111 11111111
+                                 + 1 =
 = 10000000 00000000 00000000 00000000 )
 ```
 
 
 ## Fehlertypen
-* Logikfehler 
+* Logikfehler
  * falscher Lösungsansatz
- * Endlosschleifen 
- * Endlose Rekursionen 
+ * Endlosschleifen
+ * Endlose Rekursionen
  * Off-by.one error in Arrays (OBOE)
 
 
@@ -454,21 +454,21 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
 
 
 ## Fehlertypen
-* Ressourcen 
+* Ressourcen
  * Null pointer dereferece
- * Falscher Datentyp 
+ * Falscher Datentyp
 * Interface Errors
- * Interface Misure 
- * Interface Misunderstanding 
- * Timing Errors 
+ * Interface Misure
+ * Interface Misunderstanding
+ * Timing Errors
 
 
  ## Fehlertypen
-* Performance 
+* Performance
  * Runtime Errors / Multi-Threading
- * Deadlock 
- * Race Condition 
- * Mutual Exclusion,... 
+ * Deadlock
+ * Race Condition
+ * Mutual Exclusion,...
 
 
 
