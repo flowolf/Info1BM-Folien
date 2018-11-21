@@ -240,7 +240,7 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
  * Wie wird es erledigt?
 
 
- ## SCRUM 
+ ## SCRUM
 * Product-Backlog: Liste von Aufgaben für das Projekt als Planungsstartpunkt
 * Sprint-Backlog: Detaillierter Plan für nächsten Sprint
 * Selection Phase: Features/Funktionalitäten für Sprint zusammen mit Kunde gewählt
@@ -266,18 +266,13 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
  * Schwieriger Umsetzbar bei Großprojekten (Höherer Koordinationsaufwand erfordert)  
 
 
-##Project Success
-<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/Modern%20Resolution.jpg"/></p>
+## Project Success
+<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://res.infoq.com/articles/standish-chaos-2015/en/resources/Resolution%20by%20Project%20Size.jpg"/></p>
 <a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
 
 
-##Project Success
-<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/Resolution%20by%20Project%20Size.jpg"/></p>
-<a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
-
-
-##Project Success
-<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://cdn.infoq.com/statics_s2_20161122-0331/resource/articles/standish-chaos-2015/en/resources/1Resolution%20Agile%20Waterfall.jpg"/></p>
+## Project Success 
+<p class=wikipedia style="text-align:center;width:100%;left:0em;position: relative;"><img src="https://res.infoq.com/articles/standish-chaos-2015/en/resources/1Resolution%20Agile%20Waterfall.jpg"/></p>
 <a href=https://www.infoq.com/articles/standish-chaos-2015>Source: Standish Group 2015: Chaos-Studie</a>
 
 
@@ -397,7 +392,7 @@ derivative work: <a href="//commons.wikimedia.org/wiki/User:Sebastian_Wallroth" 
   * ... <a href="https://wiki.python.org/moin/PythonDebuggingTools">many more</a>
 
 
-## Automatisiertes Test in Python
+## Automatisiertes Testen in Python
 * tox
   * <a href="https://tox.readthedocs.io"> Doku </a>, <a href="https://github.com/tox-dev/tox"> Github Projekt </a>
   * Tool für standardisiertes, automatisches Testing (Qualitätssicherung)
