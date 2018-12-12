@@ -234,7 +234,7 @@ figure.savefig("<path/name/ext>", transparent=True, bbox_inches="tight")
 * Nativ sehr gute Plot Designs
 * Anwendung komplizierter
  * Dokumentation umständlich
- * Viele übliche Plots per Hand 
+ * Viele übliche Plots per Hand
   * Z.B., Box Plots über positionierte Rechtecke
 * PDF-Konvertierung nur über externe Programme
 
@@ -243,7 +243,7 @@ figure.savefig("<path/name/ext>", transparent=True, bbox_inches="tight")
 * Müssen manuell geladen werden
  * `output_notebook()` lädt die JavaScript Library
  * `show(plot)` rendert das Bild im Browser
- 
+
 ```python
 from bokeh.io import output_notebook, show
 output_notebook()```
@@ -281,7 +281,7 @@ p1_line = plot.line(x="timestamp", y="P1", source=source)```
 from bokeh.models import HoverTool
 # {} defines our formatting. Somewhat similar to formatstrings
 hover = HoverTool(tooltips=[
-    ("<display_name_A>", "@<field_A>{%F}"),        # use custom formatter
+    ("<display_name_A>", "@<field_A>{ %F }"),        # use custom formatter
     ("<display_name_B", "@<field_B>{0,0.000}")     # format as float
 ],
                   formatters={'field_B': 'datetime'}, # custom formatter
@@ -333,5 +333,5 @@ output_file("<filename.html>")
 
 
 
-<a href="https://matplotlib.org/">_“matplotlib tries to make easy things easy<br /> and hard things possible”_</a> 
+<a href="https://matplotlib.org/">_“matplotlib tries to make easy things easy<br /> and hard things possible”_</a>
 <div style="text-align:right">`- https://matplotlib.org/`</div>
